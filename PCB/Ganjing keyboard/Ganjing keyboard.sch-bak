@@ -20,8 +20,10 @@ U 1 1 5F4C8C59
 P 7950 5950
 F 0 "C3" H 8050 6000 50  0000 L CNN
 F 1 "100nF" H 8050 5900 50  0000 L CNN
-F 2 "" H 7950 5950 50  0001 C CNN
-F 3 "~" H 7950 5950 50  0001 C CNN
+F 2 "Keyboard:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7950 5950 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 7950 5950 50  0001 C CNN
+F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 7950 5950 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 7950 5950 50  0001 C CNN "Digikey link"
 	1    7950 5950
 	1    0    0    -1  
 $EndComp
@@ -31,20 +33,11 @@ U 1 1 5F4C9663
 P 8850 5950
 F 0 "C5" H 8941 5996 50  0000 L CNN
 F 1 "4.7uF" H 8941 5905 50  0000 L CNN
-F 2 "" H 8850 5950 50  0001 C CNN
-F 3 "~" H 8850 5950 50  0001 C CNN
+F 2 "Keyboard:CP_Radial_D4.0mm_P1.50mm" H 8850 5950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/293/e-umt-1513284.pdf" H 8850 5950 50  0001 C CNN
+F 4 "647-UMT1H4R7MDD1TP" H 8850 5950 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Nichicon/UMT1H4R7MDD1TP?qs=%2Fha2pyFadujbqVa03gPiasVqnqjW6WJ55IV%252Bqf4s1CeAhefl%2FqvLBw%3D%3D" H 8850 5950 50  0001 C CNN "Mouser link"
 	1    8850 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 5F4C8F90
-P 8400 5950
-F 0 "C4" H 8500 6000 50  0000 L CNN
-F 1 "100nF" H 8500 5900 50  0000 L CNN
-F 2 "" H 8400 5950 50  0001 C CNN
-F 3 "~" H 8400 5950 50  0001 C CNN
-	1    8400 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -123,8 +116,10 @@ U 1 1 5F4D0275
 P 6850 6150
 F 0 "D69" H 6843 6366 50  0000 C CNN
 F 1 "Power" H 6843 6275 50  0000 C CNN
-F 2 "" H 6850 6150 50  0001 C CNN
-F 3 "~" H 6850 6150 50  0001 C CNN
+F 2 "Keyboard:LED_D3.0mm" H 6850 6150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4222N.pdf" H 6850 6150 50  0001 C CNN
+F 4 "160-1140-ND" H 6850 6150 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/lite-on-inc/ltl-4222n/217566" H 6850 6150 50  0001 C CNN "Digikey link"
 	1    6850 6150
 	1    0    0    -1  
 $EndComp
@@ -132,17 +127,6 @@ Wire Wire Line
 	7100 6050 7100 6150
 Wire Wire Line
 	7100 6150 7000 6150
-$Comp
-L Device:R_Small R2
-U 1 1 5F4D24AD
-P 6500 6150
-F 0 "R2" V 6304 6150 50  0000 C CNN
-F 1 "1.5k" V 6395 6150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6500 6150 50  0001 C CNN
-F 3 "~" H 6500 6150 50  0001 C CNN
-	1    6500 6150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6700 6150 6600 6150
 Wire Wire Line
@@ -247,7 +231,9 @@ P 5400 6300
 F 0 "R4" H 5459 6346 50  0000 L CNN
 F 1 "10k" H 5459 6255 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5400 6300 50  0001 C CNN
-F 3 "~" H 5400 6300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 5400 6300 50  0001 C CNN
+F 4 "603-MFR-12FTF52-10K" H 5400 6300 50  0001 C CNN "Field4"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D" H 5400 6300 50  0001 C CNN "Mouser link"
 	1    5400 6300
 	1    0    0    -1  
 $EndComp
@@ -270,7 +256,8 @@ F 0 "USB1" H 2658 7665 50  0000 C CNN
 F 1 "USB_C_GCT_USB4085" H 2658 7574 50  0000 C CNN
 F 2 "Type-C:USB_C_GCT_USB4085" H 2600 7150 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/Ionex_USB_Conn_Br.pdf" H 2600 7150 50  0001 C CNN
-F 4 "https://www.digikey.ca/en/products/detail/gct/USB4085-GF-A/9859662?s=N4IgTCBcDaIKoGUBCAWADADgKwFoDiAYjgIIgC6AvkA" H 2650 6600 50  0001 C CNN "Link"
+F 4 "2073-USB4085-GF-ATR-ND" H 2650 6600 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/gct/USB4085-GF-A/9859662?s=N4IgTCBcDaIKoGUBCAWADADgKwFoDiAYjgIIgC6AvkA" H 2650 6600 50  0001 C CNN "Digikey link"
 	1    2650 6600
 	1    0    0    -1  
 $EndComp
@@ -298,19 +285,10 @@ P 3100 6300
 F 0 "R5" V 2904 6300 50  0000 C CNN
 F 1 "5.1k" V 3000 6300 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3100 6300 50  0001 C CNN
-F 3 "~" H 3100 6300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 3100 6300 50  0001 C CNN
+F 4 "603-MFR-12FTF52-5K1" V 3100 6300 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-5K1?qs=oAGoVhmvjhy1wGcoKYGIuA%3D%3D" V 3100 6300 50  0001 C CNN "Mouser link"
 	1    3100 6300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 5F4CDD94
-P 3100 6900
-F 0 "R6" V 2904 6900 50  0000 C CNN
-F 1 "5.1k" V 3000 6900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3100 6900 50  0001 C CNN
-F 3 "~" H 3100 6900 50  0001 C CNN
-	1    3100 6900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -378,8 +356,10 @@ U 1 1 5F4E0843
 P 3400 5600
 F 0 "F1" H 3468 5646 50  0000 L CNN
 F 1 "500mA" H 3468 5555 50  0000 L CNN
-F 2 "" H 3450 5400 50  0001 L CNN
-F 3 "~" H 3400 5600 50  0001 C CNN
+F 2 "Keyboard:polyfuse_5.1mm" H 3450 5400 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/mfr.pdf" H 3400 5600 50  0001 C CNN
+F 4 "MF-R050-ND" H 3400 5600 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/bourns-inc/mf-r050/259965" H 3400 5600 50  0001 C CNN "Digikey link"
 	1    3400 5600
 	1    0    0    -1  
 $EndComp
@@ -418,7 +398,9 @@ P 3500 6200
 F 0 "R3" H 3350 6150 50  0000 C CNN
 F 1 "1.5k" H 3350 6250 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3500 6200 50  0001 C CNN
-F 3 "~" H 3500 6200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 3500 6200 50  0001 C CNN
+F 4 "603-MFR-12FTF52-1K5" H 3500 6200 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-1K5?qs=oAGoVhmvjhypP%2FVrWmgF1g%3D%3D" H 3500 6200 50  0001 C CNN "Mouser link"
 	1    3500 6200
 	-1   0    0    1   
 $EndComp
@@ -458,21 +440,12 @@ L Device:D_Zener_Small D70
 U 1 1 5F4FECAA
 P 3700 6950
 F 0 "D70" V 3650 6750 50  0000 L CNN
-F 1 "3.6V" V 3750 6700 50  0000 L CNN
+F 1 "3.6V" V 3750 6750 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" V 3700 6950 50  0001 C CNN
-F 3 "~" V 3700 6950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/tzxserie-1767901.pdf" V 3700 6950 50  0001 C CNN
+F 4 "78-TZX3V6A" V 3700 6950 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TZX3V6A-TR?qs=oNDV51lhjENtvfdCBFOJTw%3D%3D" V 3700 6950 50  0001 C CNN "Mouser link"
 	1    3700 6950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Zener_Small D71
-U 1 1 5F4FF6D5
-P 3800 6950
-F 0 "D71" V 3750 7050 50  0000 L CNN
-F 1 "3.6V" V 3845 7018 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" V 3800 6950 50  0001 C CNN
-F 3 "~" V 3800 6950 50  0001 C CNN
-	1    3800 6950
 	0    1    1    0   
 $EndComp
 Connection ~ 3300 7400
@@ -496,20 +469,11 @@ P 4000 6400
 F 0 "R7" V 3804 6400 50  0000 C CNN
 F 1 "75" V 3900 6400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4000 6400 50  0001 C CNN
-F 3 "~" H 4000 6400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf" H 4000 6400 50  0001 C CNN
+F 4 "603-CFR-12JR-52-75R" V 4000 6400 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/CFR-12JR-52-75R?qs=%2Fha2pyFaduicYmUoDqcqU7D9uIURgJBQFwzWMqews9k%252BJn0PRVolPtydK1XjXZwn" V 4000 6400 50  0001 C CNN "Mouser link"
 	1    4000 6400
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R8
-U 1 1 5F5129B6
-P 4000 6500
-F 0 "R8" V 3900 6500 50  0000 C CNN
-F 1 "75" V 3800 6500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4000 6500 50  0001 C CNN
-F 3 "~" H 4000 6500 50  0001 C CNN
-	1    4000 6500
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3300 7400 3700 7400
@@ -585,17 +549,6 @@ Connection ~ 1050 1900
 Wire Wire Line
 	1050 1900 1050 2000
 $Comp
-L Device:C_Small C1
-U 1 1 5F4C5EA3
-P 800 2100
-F 0 "C1" H 600 2150 50  0000 L CNN
-F 1 "22pF" H 550 2050 50  0000 L CNN
-F 2 "Keyboard:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 800 2100 50  0001 C CNN
-F 3 "~" H 800 2100 50  0001 C CNN
-	1    800  2100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C2
 U 1 1 5F4C5281
 P 1050 2100
@@ -603,6 +556,8 @@ F 0 "C2" H 1150 2150 50  0000 L CNN
 F 1 "22pF" H 1142 2055 50  0000 L CNN
 F 2 "Keyboard:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1050 2100 50  0001 C CNN
 F 3 "~" H 1050 2100 50  0001 C CNN
+F 4 "490-11879-ND" H 1050 2100 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/RCE5C2A220J0A2H03B/4277716?s=N4IgTCBcDaICwE4AMBaAjGgHAdgSgcgCIgC6AvkA" H 1050 2100 50  0001 C CNN "Digikey link"
 	1    1050 2100
 	1    0    0    -1  
 $EndComp
@@ -626,7 +581,9 @@ P 1050 1750
 F 0 "Y1" V 1004 1881 50  0000 L CNN
 F 1 "Crystal" V 1095 1881 50  0000 L CNN
 F 2 "Keyboard:Crystal_HC49-4H_Vertical" H 1050 1750 50  0001 C CNN
-F 3 "~" H 1050 1750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/3/ABL-1774766.pdf" H 1050 1750 50  0001 C CNN
+F 4 "815-ABL16000MHZB4YT" V 1050 1750 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/ABRACON/ABL-16000MHz-B4Y-T?qs=%2Fha2pyFaduhTESYjHsnyF1HLn9I6GCtWsUA5j38CAHHLq14gnldGnB7Xqhdnvp48" V 1050 1750 50  0001 C CNN "Mouser link"
 	1    1050 1750
 	0    1    1    0   
 $EndComp
@@ -661,7 +618,9 @@ P 900 5300
 F 0 "J2" H 900 5700 50  0000 R CNN
 F 1 "AVR-ISP-6" H 1250 5600 50  0000 R CNN
 F 2 "Keyboard:AVR_ICSP_3x2" H 750 5450 157 0001 C CNN
-F 3 "" H 750 5450 157 0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" H 750 5450 157 0001 C CNN
+F 4 "609-4934-ND" H 900 5300 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/amphenol-icc-fci/68602-406hlf/1657836" H 900 5300 50  0001 C CNN "Digikey link"
 	1    900  5300
 	1    0    0    -1  
 $EndComp
@@ -806,9 +765,11 @@ L Device:LED D68
 U 1 1 5F62B508
 P 10250 5850
 F 0 "D68" H 10243 6066 50  0000 C CNN
-F 1 "Power" H 10243 5975 50  0000 C CNN
-F 2 "" H 10250 5850 50  0001 C CNN
-F 3 "~" H 10250 5850 50  0001 C CNN
+F 1 "Caps lock" H 10243 5975 50  0000 C CNN
+F 2 "Keyboard:LED_D3.0mm" H 10250 5850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4232N.pdf" H 10250 5850 50  0001 C CNN
+F 4 "160-1143-ND" H 10250 5850 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/lite-on-inc/ltl-4232n/214439" H 10250 5850 50  0001 C CNN "Digikey link"
 	1    10250 5850
 	1    0    0    -1  
 $EndComp
@@ -817,9 +778,11 @@ L Device:R_Small R1
 U 1 1 5F62BAF8
 P 9900 5850
 F 0 "R1" V 9704 5850 50  0000 C CNN
-F 1 "60" V 9795 5850 50  0000 C CNN
+F 1 "62" V 9795 5850 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9900 5850 50  0001 C CNN
-F 3 "~" H 9900 5850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 9900 5850 50  0001 C CNN
+F 4 "603-MFR-25FTE52-62R" V 9900 5850 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-25FTE52-62R?qs=%2Fha2pyFadui%252BnL3Q99GBfj4WA5Kw0uiu%252B3xqpvRB%2FLZzSRFbs%252Bi59W%2Faej%2FR3Z61" V 9900 5850 50  0001 C CNN "Mouser link"
 	1    9900 5850
 	0    1    1    0   
 $EndComp
@@ -2155,7 +2118,9 @@ P 1300 7150
 F 0 "SW1" H 1300 7517 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 1300 7426 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 1150 7310 50  0001 C CNN
-F 3 "~" H 1300 7410 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/15/alps_alps-s-a0008379064-1-1733314.pdf" H 1300 7410 50  0001 C CNN
+F 4 "688-EC11E183440C" H 1300 7150 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Alps-Alpine/EC11E183440C?qs=%2Fha2pyFadugm9VoCFQ%2FyRs5Z0oMVNgkF%2F4IhxwyBjk%2FnoiSkvNIh7g%3D%3D" H 1300 7150 50  0001 C CNN "Mouser link"
 	1    1300 7150
 	-1   0    0    -1  
 $EndComp
@@ -3239,6 +3204,82 @@ $EndComp
 Connection ~ 9700 2000
 Wire Wire Line
 	9700 2000 10500 2000
-NoConn ~ 5350 6700
-NoConn ~ 4950 6700
+$Comp
+L Device:C_Small C1
+U 1 1 609A5F14
+P 800 2100
+F 0 "C1" H 600 2150 50  0000 L CNN
+F 1 "22pF" H 550 2050 50  0000 L CNN
+F 2 "Keyboard:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 800 2100 50  0001 C CNN
+F 3 "~" H 800 2100 50  0001 C CNN
+F 4 "490-11879-ND" H 800 2100 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/RCE5C2A220J0A2H03B/4277716?s=N4IgTCBcDaICwE4AMBaAjGgHAdgSgcgCIgC6AvkA" H 800 2100 50  0001 C CNN "Digikey link"
+	1    800  2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 609A6E94
+P 3100 6900
+F 0 "R6" V 2904 6900 50  0000 C CNN
+F 1 "5.1k" V 3000 6900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3100 6900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 3100 6900 50  0001 C CNN
+F 4 "603-MFR-12FTF52-5K1" V 3100 6900 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-5K1?qs=oAGoVhmvjhy1wGcoKYGIuA%3D%3D" V 3100 6900 50  0001 C CNN "Mouser link"
+	1    3100 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 609A7444
+P 4000 6500
+F 0 "R8" V 4100 6500 50  0000 C CNN
+F 1 "75" V 4200 6500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4000 6500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf" H 4000 6500 50  0001 C CNN
+F 4 "603-CFR-12JR-52-75R" V 4000 6500 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/CFR-12JR-52-75R?qs=%2Fha2pyFaduicYmUoDqcqU7D9uIURgJBQFwzWMqews9k%252BJn0PRVolPtydK1XjXZwn" V 4000 6500 50  0001 C CNN "Mouser link"
+	1    4000 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener_Small D71
+U 1 1 609A7FF8
+P 3800 6950
+F 0 "D71" V 3750 7000 50  0000 L CNN
+F 1 "3.6V" V 3850 7000 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" V 3800 6950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/tzxserie-1767901.pdf" V 3800 6950 50  0001 C CNN
+F 4 "78-TZX3V6A" V 3800 6950 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TZX3V6A-TR?qs=oNDV51lhjENtvfdCBFOJTw%3D%3D" V 3800 6950 50  0001 C CNN "Mouser link"
+	1    3800 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 609A8C45
+P 6500 6150
+F 0 "R2" V 6300 6150 50  0000 C CNN
+F 1 "1.5k" V 6400 6150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6500 6150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 6500 6150 50  0001 C CNN
+F 4 "603-MFR-12FTF52-1K5" H 6500 6150 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-1K5?qs=oAGoVhmvjhypP%2FVrWmgF1g%3D%3D" H 6500 6150 50  0001 C CNN "Mouser link"
+	1    6500 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 609AA0F0
+P 8400 5950
+F 0 "C4" H 8500 6000 50  0000 L CNN
+F 1 "100nF" H 8500 5900 50  0000 L CNN
+F 2 "Keyboard:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8400 5950 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 8400 5950 50  0001 C CNN
+F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 8400 5950 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 8400 5950 50  0001 C CNN "Digikey link"
+	1    8400 5950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
