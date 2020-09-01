@@ -711,53 +711,49 @@ F 3 "" H 1150 3950 50  0001 C CNN
 	1    1150 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 2650 3650 2    50   Input ~ 0
-row3
-Text GLabel 2650 3550 2    50   Input ~ 0
-row1
 Text GLabel 2650 1450 2    50   Input ~ 0
-col0
+row3
 Text GLabel 2650 1550 2    50   Input ~ 0
-col2
+row1
 Text GLabel 2650 1650 2    50   Input ~ 0
+col0
+Text GLabel 2650 1750 2    50   Input ~ 0
+col2
+Text GLabel 2650 1850 2    50   Input ~ 0
 col4
-Text GLabel 2650 2350 2    50   Input ~ 0
-row4
-Text GLabel 2650 3950 2    50   Input ~ 0
-row2
-Text GLabel 2650 3450 2    50   Input ~ 0
-row0
 Text GLabel 2650 2650 2    50   Input ~ 0
-col1
+row2
 Text GLabel 2650 2750 2    50   Input ~ 0
+row0
+Text GLabel 2650 3450 2    50   Input ~ 0
+col1
+Text GLabel 2650 3550 2    50   Input ~ 0
 col3
 Text GLabel 2650 2450 2    50   Input ~ 0
 B1
 Text GLabel 2650 2550 2    50   Input ~ 0
 B2
-Text GLabel 2650 1750 2    50   Input ~ 0
-col6
-Text GLabel 2650 1850 2    50   Input ~ 0
-col8
 Text GLabel 2650 1950 2    50   Input ~ 0
-col10
+col6
 Text GLabel 2650 2050 2    50   Input ~ 0
-col11
+col8
 Text GLabel 2650 2150 2    50   Input ~ 0
+col10
+Text GLabel 2650 3950 2    50   Input ~ 0
+col11
+Text GLabel 2650 4650 2    50   Input ~ 0
 col12
-Text GLabel 2650 3850 2    50   Input ~ 0
+Text GLabel 2650 2350 2    50   Input ~ 0
 row4
 Text GLabel 2650 4750 2    50   Input ~ 0
 col13
-Text GLabel 2650 4650 2    50   Input ~ 0
+Text GLabel 2650 4850 2    50   Input ~ 0
 col14
 Text GLabel 2650 4550 2    50   Input ~ 0
 Boot
 Text GLabel 2650 4150 2    50   Input ~ 0
 CapsLock
-NoConn ~ 2650 3750
 NoConn ~ 2650 4250
-NoConn ~ 2650 4850
 Text Notes 9250 5500 0    157  ~ 31
 Caps lock LED
 $Comp
@@ -821,15 +817,15 @@ F 5 "https://www.digikey.ca/en/products/detail/microchip-technology/atmega32a-pu
 	1    0    0    -1  
 $EndComp
 Text GLabel 10800 1250 1    50   Input ~ 0
-Col14
+col14
 Text GLabel 10000 1250 1    50   Input ~ 0
-Col13
+col13
 Text GLabel 9600 1250 1    50   Input ~ 0
-Col12
+col12
 Text GLabel 9200 1250 1    50   Input ~ 0
-Col11
+col11
 Text GLabel 8800 1250 1    50   Input ~ 0
-Col10
+col10
 Connection ~ 10800 1500
 Wire Wire Line
 	10800 1500 10800 1250
@@ -875,28 +871,26 @@ Connection ~ 5200 1500
 Wire Wire Line
 	5200 1250 5200 1500
 Connection ~ 4800 1500
-Wire Wire Line
-	4800 1300 4800 1500
 Text GLabel 8400 1250 1    50   Input ~ 0
-Col9
+col9
 Text GLabel 8000 1250 1    50   Input ~ 0
-Col8
+col8
 Text GLabel 7600 1250 1    50   Input ~ 0
-Col7
+col7
 Text GLabel 7200 1250 1    50   Input ~ 0
-Col6
+col6
 Text GLabel 6800 1250 1    50   Input ~ 0
-Col5
+col5
 Text GLabel 6400 1250 1    50   Input ~ 0
-Col4
+col4
 Text GLabel 6000 1250 1    50   Input ~ 0
-Col3
+col3
 Text GLabel 5600 1250 1    50   Input ~ 0
-Col2
+col2
 Text GLabel 5200 1250 1    50   Input ~ 0
-Col1
+col1
 Text GLabel 4800 1250 1    50   Input ~ 0
-Col0
+col0
 Wire Wire Line
 	9950 2250 9900 2250
 Connection ~ 9950 2250
@@ -1274,11 +1268,11 @@ Wire Wire Line
 Wire Wire Line
 	4500 3200 4200 3200
 Text GLabel 4000 2750 0    50   Input ~ 0
-Row1
+row1
 Wire Wire Line
 	4000 2000 4500 2000
 Text GLabel 4000 2000 0    50   Input ~ 0
-Row0
+row0
 $Comp
 L Device:D D1
 U 1 1 5F7A2FFE
@@ -1293,11 +1287,11 @@ F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811"
 	0    -1   -1   0   
 $EndComp
 Text GLabel 4000 4250 0    50   Input ~ 0
-Row3
+row3
 Text GLabel 4000 5000 0    50   Input ~ 0
-Row4
+row4
 Text GLabel 4000 3500 0    50   Input ~ 0
-Row2
+row2
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX74
 U 1 1 5F782119
@@ -3282,4 +3276,14 @@ F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1
 	1    8400 5950
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5350 6700
+NoConn ~ 4950 6700
+Text GLabel 2650 3750 2    50   Input ~ 0
+col7
+Text GLabel 2650 3850 2    50   Input ~ 0
+col9
+Text GLabel 2650 3650 2    50   Input ~ 0
+col5
+Wire Wire Line
+	4800 1250 4800 1500
 $EndSCHEMATC
