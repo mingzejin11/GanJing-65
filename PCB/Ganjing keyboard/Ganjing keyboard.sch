@@ -225,10 +225,10 @@ F 3 "" H 5400 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R4
+L Device:R_Small R1
 U 1 1 5F4E9D5C
 P 5400 6300
-F 0 "R4" H 5459 6346 50  0000 L CNN
+F 0 "R1" H 5459 6346 50  0000 L CNN
 F 1 "10k" H 5459 6255 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5400 6300 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 5400 6300 50  0001 C CNN
@@ -279,10 +279,10 @@ Wire Wire Line
 	3000 7200 3000 7300
 Connection ~ 3000 7300
 $Comp
-L Device:R_Small R5
+L Device:R_Small R3
 U 1 1 5F4CCFEB
 P 3100 6300
-F 0 "R5" V 2904 6300 50  0000 C CNN
+F 0 "R3" V 2904 6300 50  0000 C CNN
 F 1 "5.1k" V 3000 6300 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3100 6300 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 3100 6300 50  0001 C CNN
@@ -392,10 +392,10 @@ Connection ~ 3500 6400
 Wire Wire Line
 	3500 6400 2900 6400
 $Comp
-L Device:R_Small R3
+L Device:R_Small R4
 U 1 1 5F4EB02A
 P 3500 6200
-F 0 "R3" H 3350 6150 50  0000 C CNN
+F 0 "R4" H 3350 6150 50  0000 C CNN
 F 1 "1.5k" H 3350 6250 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3500 6200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 3500 6200 50  0001 C CNN
@@ -463,10 +463,10 @@ $EndComp
 Wire Wire Line
 	3800 7400 3800 7500
 $Comp
-L Device:R_Small R7
+L Device:R_Small R5
 U 1 1 5F51258F
 P 4000 6400
-F 0 "R7" V 3804 6400 50  0000 C CNN
+F 0 "R5" V 3804 6400 50  0000 C CNN
 F 1 "75" V 3900 6400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4000 6400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf" H 4000 6400 50  0001 C CNN
@@ -770,10 +770,10 @@ F 5 "https://www.digikey.ca/en/products/detail/lite-on-inc/ltl-4232n/214439" H 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R1
+L Device:R_Small R8
 U 1 1 5F62BAF8
 P 9900 5850
-F 0 "R1" V 9704 5850 50  0000 C CNN
+F 0 "R8" V 9704 5850 50  0000 C CNN
 F 1 "62" V 9795 5850 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9900 5850 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 9900 5850 50  0001 C CNN
@@ -3212,10 +3212,10 @@ F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/RCE5C2A220J0A2
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R6
+L Device:R_Small R2
 U 1 1 609A6E94
 P 3100 6900
-F 0 "R6" V 2904 6900 50  0000 C CNN
+F 0 "R2" V 2904 6900 50  0000 C CNN
 F 1 "5.1k" V 3000 6900 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3100 6900 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 3100 6900 50  0001 C CNN
@@ -3225,10 +3225,10 @@ F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-5K1?qs=oAGoVhmvjhy1w
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R8
+L Device:R_Small R6
 U 1 1 609A7444
 P 4000 6500
-F 0 "R8" V 4100 6500 50  0000 C CNN
+F 0 "R6" V 4100 6500 50  0000 C CNN
 F 1 "75" V 4200 6500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4000 6500 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf" H 4000 6500 50  0001 C CNN
@@ -3251,10 +3251,10 @@ F 5 "https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TZX3V6A-TR?qs=oN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R2
+L Device:R_Small R7
 U 1 1 609A8C45
 P 6500 6150
-F 0 "R2" V 6300 6150 50  0000 C CNN
+F 0 "R7" V 6300 6150 50  0000 C CNN
 F 1 "1.5k" V 6400 6150 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6500 6150 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 6500 6150 50  0001 C CNN
