@@ -711,41 +711,41 @@ F 3 "" H 1150 3950 50  0001 C CNN
 	1    1150 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 2650 1450 2    50   Input ~ 0
+Text GLabel 2650 4750 2    50   Input ~ 0
 row3
-Text GLabel 2650 1550 2    50   Input ~ 0
+Text GLabel 2650 2750 2    50   Input ~ 0
 row1
-Text GLabel 2650 1650 2    50   Input ~ 0
+Text GLabel 2650 1450 2    50   Input ~ 0
 col0
-Text GLabel 2650 1750 2    50   Input ~ 0
+Text GLabel 2650 1650 2    50   Input ~ 0
 col2
 Text GLabel 2650 1850 2    50   Input ~ 0
 col4
-Text GLabel 2650 2650 2    50   Input ~ 0
+Text GLabel 2650 4650 2    50   Input ~ 0
 row2
-Text GLabel 2650 2750 2    50   Input ~ 0
+Text GLabel 2650 2650 2    50   Input ~ 0
 row0
-Text GLabel 2650 3450 2    50   Input ~ 0
+Text GLabel 2650 1550 2    50   Input ~ 0
 col1
-Text GLabel 2650 3550 2    50   Input ~ 0
+Text GLabel 2650 1750 2    50   Input ~ 0
 col3
 Text GLabel 2650 2450 2    50   Input ~ 0
 B1
 Text GLabel 2650 2550 2    50   Input ~ 0
 B2
-Text GLabel 2650 1950 2    50   Input ~ 0
-col6
 Text GLabel 2650 2050 2    50   Input ~ 0
-col8
-Text GLabel 2650 2150 2    50   Input ~ 0
-col10
+col6
 Text GLabel 2650 3950 2    50   Input ~ 0
+col8
+Text GLabel 2650 3750 2    50   Input ~ 0
+col10
+Text GLabel 2650 3650 2    50   Input ~ 0
 col11
-Text GLabel 2650 4650 2    50   Input ~ 0
+Text GLabel 2650 3550 2    50   Input ~ 0
 col12
 Text GLabel 2650 2350 2    50   Input ~ 0
 row4
-Text GLabel 2650 4750 2    50   Input ~ 0
+Text GLabel 2650 3450 2    50   Input ~ 0
 col13
 Text GLabel 2650 4850 2    50   Input ~ 0
 col14
@@ -3278,11 +3278,11 @@ F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1
 $EndComp
 NoConn ~ 5350 6700
 NoConn ~ 4950 6700
-Text GLabel 2650 3750 2    50   Input ~ 0
+Text GLabel 2650 2150 2    50   Input ~ 0
 col7
 Text GLabel 2650 3850 2    50   Input ~ 0
 col9
-Text GLabel 2650 3650 2    50   Input ~ 0
+Text GLabel 2650 1950 2    50   Input ~ 0
 col5
 Wire Wire Line
 	4800 1250 4800 1500
