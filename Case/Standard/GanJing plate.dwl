@@ -1,3 +1,0 @@
-mingz
-DESKTOP-U46FVSB 
-September 1, 2020  12:21:19 PM
