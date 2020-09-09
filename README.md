@@ -10,6 +10,8 @@ Inspired by the [Discipline](https://github.com/coseyfannitutti/discipline) and 
 
 ![](./Images/GanJing_keyboard_schematic.png)
 ## PCB layout
-
+Front
 ![](./Images/GanJing_keyboard_PCB_front.png)
+
+Back
 ![](./Images/GanJing_keyboard_PCB_back.png)
