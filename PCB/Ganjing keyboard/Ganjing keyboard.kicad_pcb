@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 14)
     (tracks 1835)
     (zones 0)
     (modules 172)
@@ -7690,6 +7690,10 @@
     )
   )
 
+  (gr_line (start 186.3 105.2) (end 355.5 105.2) (layer F.Mask) (width 1.5) (tstamp 5F585B75))
+  (gr_line (start 186.3 102.9) (end 355.5 102.9) (layer F.Mask) (width 1.5) (tstamp 5F585B5C))
+  (gr_line (start 186.3 100.6) (end 355.5 100.6) (layer F.Mask) (width 1.5) (tstamp 5F585B5C))
+  (gr_line (start 186.3 98.3) (end 355.5 98.3) (layer F.Mask) (width 1.5))
   (dimension 304.8 (width 0.15) (layer Dwgs.User)
     (gr_text "304.800 mm" (at 211.93125 239.425) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
