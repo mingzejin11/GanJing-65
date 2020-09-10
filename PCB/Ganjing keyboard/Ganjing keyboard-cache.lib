@@ -97,9 +97,9 @@ $FPLIST
  D_*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 10 -50 50 -50 -50 N
 P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -120,8 +120,8 @@ $FPLIST
 $ENDFPLIST
 DRAW
 P 2 0 1 0 30 0 -30 0 N
-P 3 0 1 0 -10 40 -30 40 -30 -40 N
-P 4 0 1 0 30 40 -30 0 30 -40 30 40 N
+P 3 0 1 10 -10 40 -30 40 -30 -40 N
+P 4 0 1 10 30 40 -30 0 30 -40 30 40 N
 X K 1 -100 0 70 R 50 50 1 1 P
 X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
@@ -140,9 +140,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -225,14 +225,46 @@ X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCU_Microchip_ATmega_ATmega32A-PU
+# Ganjing-keyboard-rescue_1825910-7-dk_Tactile-Switches
 #
-DEF MCU_Microchip_ATmega_ATmega32A-PU U 0 20 Y Y 1 F N
+DEF Ganjing-keyboard-rescue_1825910-7-dk_Tactile-Switches S 0 40 Y Y 1 F N
+F0 "S" 0 180 60 H V C CNN
+F1 "Ganjing-keyboard-rescue_1825910-7-dk_Tactile-Switches" 0 -225 60 H V C CNN
+F2 "digikey-footprints:Switch_Tactile_THT_6x6mm" 200 200 60 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
+F4 "450-1804-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "1825910-7" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Tactile Switches" 200 700 60 H I L CNN "Family"
+F8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH TACTILE SPST-NO 0.05A 24V" 200 1000 60 H I L CNN "Description"
+F11 "TE Connectivity ALCOSWITCH Switches" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 100 -100 -100 N
+P 2 0 1 0 -70 0 -100 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 100 -100 100 100 N
+P 2 0 1 0 100 0 70 0 N
+P 2 1 1 0 -40 110 35 110 N
+P 2 1 1 0 0 110 0 50 N
+X ~ 1 -200 100 100 R 50 50 1 1 P
+X ~ 2 -200 -100 100 R 50 50 1 1 P
+X ~ 3 200 100 100 L 50 50 1 1 P
+X ~ 4 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ganjing-keyboard-rescue_ATmega32A-PU-MCU_Microchip_ATmega
+#
+DEF Ganjing-keyboard-rescue_ATmega32A-PU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
 F0 "U" -500 1950 50 H V L BNN
-F1 "MCU_Microchip_ATmega_ATmega32A-PU" 100 -1950 50 H V L TNN
+F1 "Ganjing-keyboard-rescue_ATmega32A-PU-MCU_Microchip_ATmega" 100 -1950 50 H V L TNN
 F2 "Package_DIP:DIP-40_W15.24mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-ALIAS ATmega16-16PU ATmega16A-PU ATmega32L-8PU ATmega32-16PU ATmega32A-PU
 $FPLIST
  DIP*W15.24mm*
 $ENDFPLIST
@@ -281,29 +313,11 @@ X ~RESET 9 -600 1700 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MX_Alps_Hybrid_MX-NoLED
+# Ganjing-keyboard-rescue_AVR-ISP-6-USB_C_GCT_USB4085
 #
-DEF MX_Alps_Hybrid_MX-NoLED MX 0 40 Y Y 1 F N
-F0 "MX" -25 150 60 H V C CNN
-F1 "MX_Alps_Hybrid_MX-NoLED" -25 50 20 H V C CNN
-F2 "" -625 -25 60 H I C CNN
-F3 "" -625 -25 60 H I C CNN
-DRAW
-T 0 125 0 30 0 0 0 COL Normal 0 C C
-T 900 0 -75 30 0 0 0 ROW Normal 0 R C
-S -100 100 50 -50 0 0 0 N
-P 2 0 0 5 -50 -50 -50 50 N
-P 3 0 0 5 50 50 0 50 -50 75 N
-X COL 1 150 50 100 L 0 0 1 1 P
-X ROW 2 -50 -150 100 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# USB_C_GCT_USB4085_AVR-ISP-6
-#
-DEF USB_C_GCT_USB4085_AVR-ISP-6 J 0 40 Y Y 1 F N
+DEF Ganjing-keyboard-rescue_AVR-ISP-6-USB_C_GCT_USB4085 J 0 40 Y Y 1 F N
 F0 "J" -50 400 50 H V C CNN
-F1 "USB_C_GCT_USB4085_AVR-ISP-6" 150 300 50 H V C CNN
+F1 "Ganjing-keyboard-rescue_AVR-ISP-6-USB_C_GCT_USB4085" 150 300 50 H V C CNN
 F2 "" -150 150 157 H I C CNN
 F3 "" -150 150 157 H I C CNN
 DRAW
@@ -317,11 +331,29 @@ X GND 6 -100 -350 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_C_GCT_USB4085_USB_C_GCT_USB4085
+# Ganjing-keyboard-rescue_MX-NoLED-MX_Alps_Hybrid
 #
-DEF USB_C_GCT_USB4085_USB_C_GCT_USB4085 USB 0 40 Y Y 1 F N
+DEF Ganjing-keyboard-rescue_MX-NoLED-MX_Alps_Hybrid MX 0 40 Y Y 1 F N
+F0 "MX" -25 150 60 H V C CNN
+F1 "Ganjing-keyboard-rescue_MX-NoLED-MX_Alps_Hybrid" -25 50 20 H V C CNN
+F2 "" -625 -25 60 H I C CNN
+F3 "" -625 -25 60 H I C CNN
+DRAW
+T 0 125 0 30 0 0 0 COL Normal 0 C C
+T 900 0 -75 30 0 0 0 ROW Normal 0 R C
+S -100 100 50 -50 0 0 0 N
+P 2 0 0 5 -50 -50 -50 50 N
+P 3 0 0 5 50 50 0 50 -50 75 N
+X COL 1 150 50 100 L 0 0 1 1 P
+X ROW 2 -50 -150 100 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ganjing-keyboard-rescue_USB_C_GCT_USB4085-USB_C_GCT_USB4085
+#
+DEF Ganjing-keyboard-rescue_USB_C_GCT_USB4085-USB_C_GCT_USB4085 USB 0 40 Y Y 1 F N
 F0 "USB" -50 1100 50 H V C CNN
-F1 "USB_C_GCT_USB4085_USB_C_GCT_USB4085" -50 1000 50 H V C CNN
+F1 "Ganjing-keyboard-rescue_USB_C_GCT_USB4085-USB_C_GCT_USB4085" -50 1000 50 H V C CNN
 F2 "" -50 550 50 H I C CNN
 F3 "" -50 550 50 H I C CNN
 DRAW
@@ -343,39 +375,6 @@ X DN2 B7 250 200 100 L 50 50 1 1 P
 X SBU2 B8 250 400 100 L 50 50 1 1 P
 X VBUS B9 250 500 100 L 50 50 1 1 P
 X SHIELD S1 250 -800 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dk_Tactile-Switches_1825910-7
-#
-DEF dk_Tactile-Switches_1825910-7 S 0 40 Y Y 1 F N
-F0 "S" 0 180 60 H V C CNN
-F1 "dk_Tactile-Switches_1825910-7" 0 -225 60 H V C CNN
-F2 "digikey-footprints:Switch_Tactile_THT_6x6mm" 200 200 60 H I L CNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
-F4 "450-1804-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "1825910-7" 200 500 60 H I L CNN "MPN"
-F6 "Switches" 200 600 60 H I L CNN "Category"
-F7 "Tactile Switches" 200 700 60 H I L CNN "Family"
-F8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "SWITCH TACTILE SPST-NO 0.05A 24V" 200 1000 60 H I L CNN "Description"
-F11 "TE Connectivity ALCOSWITCH Switches" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-C -60 0 10 0 1 0 N
-C 60 0 10 0 1 0 N
-P 2 0 1 0 -100 100 -100 -100 N
-P 2 0 1 0 -70 0 -100 0 N
-P 2 0 1 0 -70 50 70 50 N
-P 2 0 1 0 100 -100 100 100 N
-P 2 0 1 0 100 0 70 0 N
-P 2 1 1 0 -40 110 35 110 N
-P 2 1 1 0 0 110 0 50 N
-X ~ 1 -200 100 100 R 50 50 1 1 P
-X ~ 2 -200 -100 100 R 50 50 1 1 P
-X ~ 3 200 100 100 L 50 50 1 1 P
-X ~ 4 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -415,8 +414,9 @@ F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
