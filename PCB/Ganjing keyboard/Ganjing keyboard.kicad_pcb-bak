@@ -7507,7 +7507,7 @@
     (fp_text reference D68 (at 1.364844 -2.642198) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Caps lock" (at 7.5 -1.1) (layer F.SilkS)
+    (fp_text value Caps (at 7.5 -1.1) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.25)))
     )
     (fp_line (start 3.7 -2.25) (end -1.15 -2.25) (layer F.CrtYd) (width 0.05))
