@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name GanJing-crystal)(type KiCad)(uri C:/Users/mingz/Documents/GanJing-keyboard/PCB/Crystal/eec.pretty)(options "")(descr ""))
+)
