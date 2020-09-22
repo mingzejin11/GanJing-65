@@ -37,4 +37,4 @@ ENCODER_ENABLE = yes
 OLED_DRIVER_ENABLE = yes
 
 
-LAYOUTS = 65_ansi 65_iso
+LAYOUTS = LAYOUT_65_ansi LAYOUT_65_ansi_winkeyless LAYOUT_65_iso LAYOUT_65_iso_winkeyless

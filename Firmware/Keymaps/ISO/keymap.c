@@ -21,6 +21,34 @@
 #define MN 0
 #define FN 1
 
+enum GanJing_keycodes {
+    EMAIL = SAFE_RANGE,
+}
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+    case EMAIL:
+        if (record->event.pressed) {
+            // When keycode EMAIL is pressed
+            SEND_STRING("mingze.jin11@gmail.com");
+        } else {
+
+        }
+
+        break;
+    }
+
+    return true;
+}
+
+void encoder_update_user(uint16_t index, bool clockwise) {
+    if (clockwise) {
+        tap_code(KC_VOLU);
+    } else {
+        tap_code(KC_VOLD);
+    }
+}
+ 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* Keymap MN: Main Layer (Default Layer)
      */
@@ -35,7 +63,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
 [FN] = LAYOUT_65_iso(
     /* esc     1        2        3        4        5        6        7        8        9        0        -        =      bkspc     mute  */
-    KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_TRNS, KC_MUTE,
+    KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_TRNS, KC_TRNS,
     /* tab     Q        W        E        R        T        Y        U        I        O        P        [        ]      enter    delete */ 
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_INS,
     /* caps    A        S        D        F        G        H        J        K        L        ;        '                 #      pg up  */
