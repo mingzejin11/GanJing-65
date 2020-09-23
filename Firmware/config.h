@@ -60,10 +60,16 @@
 #define NO_ACTION_ONESHOT
 #define DISABLE_LEADER
 
-/*enable right shift+2 email address marco*/
+/* Enable right shift+2 email address marco */
 #define EMAIL_ENABLE
 #ifdef EMAIL_ENABLE
-	#define EMAIL_ADDRESS "luanty@163.com"
+	#define EMAIL_ADDRESS "mingze.jin11@gmail.com"
+#endif
+
+/* Enable the OLED driver */
+#ifdef OLED_DRIVER_ENABLE
+  	#define OLED_DISPLAY_128X32
+  	#define OLED_TIMEOUT 300000
 #endif
 
 /*sequence for ctrl, win and alt*/
