@@ -21,6 +21,14 @@
 #define MN 0
 #define FN 1
 
+void encoder_update_user(uint16_t index, bool clockwise) {
+    if (clockwise) {
+        tap_code(KC_VOLU);
+    } else {
+        tap_code(KC_VOLD);
+    }
+}
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* Keymap MN: Main Layer (Default Layer)
      */
