@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 19)
     (tracks 2411)
     (zones 0)
     (modules 178)
@@ -7805,6 +7805,12 @@
     )
   )
 
+  (gr_text "Designed by Mingze Jin" (at 343.7 217.2) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (gr_text "GanJing Keyboard prototype" (at 347.2 215.3) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (dimension 296.8 (width 0.12) (layer Dwgs.User)
     (gr_text "296.800 mm" (at 211.93125 81.83) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
