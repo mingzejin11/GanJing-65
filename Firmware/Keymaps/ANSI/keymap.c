@@ -59,15 +59,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // }
 
 // WPM-responsive animation stuff here
+// Idle parameters
 #define IDLE_FRAMES 5
 #define IDLE_SPEED 10 // below this wpm value your animation will idle
 
-// #define PREP_FRAMES 1 // uncomment if >1
+// Start parameters
+#define START_FRAMES 1 // uncomment if >1
+#define START_SPEED 20
 
+// Tap parameters
 #define TAP_FRAMES 2
-#define TAP_SPEED 60 // above this wpm value typing animation to trigger
+#define TAP_SPEED 60 // above this WPM value the tapping gets hard
 
-#define SURRENDER_FRAMES 2
+// Surrender parameters
+#define SURRENDER_FRAMES 10
 #define SURRENDER_SPEED 100
 
 #define ANIM_FRAME_DURATION 200 // how long each frame lasts in ms
@@ -77,8 +82,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 uint32_t anim_timer = 0;
 uint32_t anim_sleep = 0;
 uint8_t current_idle_frame = 0;
-// uint8_t current_prep_frame = 0; // uncomment if PREP_FRAMES >1
+// uint8_t current_prep_frame = 0; // uncomment if PREP_FRAMES > 1
 uint8_t current_tap_frame = 0;
+uint8_t current_surrender_frame = 0;
+
 
 // Images credit to Pixelbenny
 static void render_anim(void) {
@@ -839,19 +846,33 @@ static void render_anim(void) {
 
     // Assumes 1 frame prep stage
     void animation_phase(void) {
-		if (get_current_wpm() <= IDLE_SPEED) {
+    	// Idle
+		if (get_current_wpm() < IDLE_SPEED) {
 			current_idle_frame = (current_idle_frame + 1) % IDLE_FRAMES;
 			oled_write_raw_P(idle[abs((IDLE_FRAMES - 1) - current_idle_frame)], ANIM_SIZE);
 		}
 
-        if (get_current_wpm() > IDLE_SPEED && get_current_wpm() < TAP_SPEED) {
-			// oled_write_raw_P(prep[abs((PREP_FRAMES-1)-current_prep_frame)], ANIM_SIZE); // uncomment if IDLE_FRAMES >1
-			oled_write_raw_P(prep[0], ANIM_SIZE);  // remove if IDLE_FRAMES >1
+		// Start
+        if (get_current_wpm() >= IDLE_SPEED && get_current_wpm() < START_SPEED) {
+			oled_write_raw_P(start[0], ANIM_SIZE);
 		}
 
-		if (get_current_wpm() >= TAP_SPEED) {
+		// Soft tap
+		if (get_current_wpm() >= START_SPEED && get_current_wpm() < TAP_SPEED) {
 			current_tap_frame = (current_tap_frame + 1) % TAP_FRAMES;
-			oled_write_raw_P(tap[abs((TAP_FRAMES - 1) - current_tap_frame)], ANIM_SIZE);
+			oled_write_raw_P(soft[abs((TAP_FRAMES - 1) - current_tap_frame)], ANIM_SIZE);
+		}
+
+		// Hard tap
+		if (get_current_wpm() >= TAP_SPEED && get_current_wpm() < SURRENDER_SPEED) {
+			current_tap_frame = (current_tap_frame + 1) % TAP_FRAMES;
+			oled_write_raw_P(hard[abs((TAP_FRAMES - 1) - current_tap_frame)], ANIM_SIZE);
+		}
+
+		// Surrender
+		if (get_current_wpm() >= SURRENDER_SPEED) {
+			current_surrender_frame = (current_surrender_frame + 1) % SURRENDER_FRAMES;
+			oled_write_raw_P(surrender[abs((SURRENDER_FRAMES - 1) - current_surrender_frame)], ANIM_SIZE);
 		}
     }
 
@@ -880,12 +901,13 @@ void oled_task_user(void) {
         //render_skull();
         //oled_set_cursor(7,6);
         render_status();
-     // Renders the current keyboard state (layer, lock, caps, scroll, etc)
+		// Renders the current keyboard state (layer, lock, caps, scroll, etc)
     } else {
         render_anim();
-        oled_set_cursor(0,6);
+        oled_set_cursor(0, 6);
         sprintf(wpm_str, "       WPM: %03d", get_current_wpm());
         oled_write(wpm_str, false);
     }
 }
+
 #endif

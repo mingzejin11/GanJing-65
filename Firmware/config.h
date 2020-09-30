@@ -69,7 +69,7 @@
 /* Enable the OLED driver */
 #ifdef OLED_DRIVER_ENABLE
   	#define OLED_DISPLAY_128X32
-  	#define OLED_TIMEOUT 300000
+  	#define OLED_TIMEOUT 300000	// Measured in milliseconds = 5 minutes
 #endif
 
 /*sequence for ctrl, win and alt*/
