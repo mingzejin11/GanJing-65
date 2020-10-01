@@ -716,7 +716,7 @@ static void render_anim(void) {
 				anim_timer = timer_read32();
 				animation_phase();
 			}
-		} else if (current_wpm >= 80 && current_wpm < 100) {	// 10 fps
+		} else if (current_wpm >= 80 && current_wpm < 300) {	// 10 fps
 			if (timer_elapsed32(anim_timer) > FASTEST_FRAME_DURATION) {
 				anim_timer = timer_read32();
 				animation_phase();
