@@ -14,7 +14,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef GANJING_H
+#pragma once
 #define	GANJING_H
 
 #define _x_ KC_NO

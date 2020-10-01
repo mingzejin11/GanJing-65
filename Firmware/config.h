@@ -34,7 +34,7 @@
 #define MATRIX_ROW_PINS { B3, B4, D5, D6, B0 }
 #define MATRIX_COL_PINS { A0, A1, A2, A3, A4, A5, A6, A7, C7, C6, C5, C4, C3, C2, D7 }
 
-#define OLED_FONT_H "Keymaps/Windows/glcdfont.c"
+#define OLED_FONT_H "Keymaps/glcdfont.c"
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
@@ -69,7 +69,7 @@
 /* Enable the OLED driver */
 #ifdef OLED_DRIVER_ENABLE
   	#define OLED_DISPLAY_128X32
-  	#define OLED_TIMEOUT 300000
+  	#define OLED_TIMEOUT 300000	// Measured in milliseconds = 5 minutes
 #endif
 
 /*sequence for ctrl, win and alt*/
