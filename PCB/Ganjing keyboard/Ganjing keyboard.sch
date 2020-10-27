@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Ganjing keyboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -136,103 +135,72 @@ Wire Wire Line
 $Comp
 L power:GND #PWR019
 U 1 1 5F4DA3B8
-P 4750 7300
-F 0 "#PWR019" H 4750 7050 50  0001 C CNN
-F 1 "GND" H 4755 7127 50  0000 C CNN
-F 2 "" H 4750 7300 50  0001 C CNN
-F 3 "" H 4750 7300 50  0001 C CNN
-	1    4750 7300
+P 4800 7250
+F 0 "#PWR019" H 4800 7000 50  0001 C CNN
+F 1 "GND" H 4805 7077 50  0000 C CNN
+F 2 "" H 4800 7250 50  0001 C CNN
+F 3 "" H 4800 7250 50  0001 C CNN
+	1    4800 7250
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 7200 2    50   Input ~ 0
+Text GLabel 5500 7150 2    50   Input ~ 0
 Reset
 $Comp
 L Ganjing-keyboard-rescue:1825910-7-dk_Tactile-Switches S2
 U 1 1 5F4DDD6B
-P 5150 7300
-F 0 "S2" H 5150 7647 60  0000 C CNN
-F 1 "Reset" H 5150 7541 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 5350 7500 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5350 7600 60  0001 L CNN
-F 4 "450-1804-ND" H 5350 7700 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-7" H 5350 7800 60  0001 L CNN "MPN"
-F 6 "Switches" H 5350 7900 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 5350 8000 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5350 8100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" H 5350 8200 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 5350 8300 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 5350 8400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5350 8500 60  0001 L CNN "Status"
-	1    5150 7300
+P 5200 7250
+F 0 "S2" H 5200 7597 60  0000 C CNN
+F 1 "Reset" H 5200 7491 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 5400 7450 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5400 7550 60  0001 L CNN
+F 4 "450-1804-ND" H 5400 7650 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-7" H 5400 7750 60  0001 L CNN "MPN"
+F 6 "Switches" H 5400 7850 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 5400 7950 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5400 8050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" H 5400 8150 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 5400 8250 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 5400 8350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5400 8450 60  0001 L CNN "Status"
+	1    5200 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 7200 4750 7300
+	4800 7150 4800 7250
 Wire Wire Line
-	5350 7200 5450 7200
+	5400 7150 5450 7150
 Wire Wire Line
-	4750 7200 4950 7200
-NoConn ~ 5350 7400
-NoConn ~ 4950 7400
+	4800 7150 5000 7150
+NoConn ~ 5400 7350
+NoConn ~ 5000 7350
 $Comp
 L Ganjing-keyboard-rescue:1825910-7-dk_Tactile-Switches S1
 U 1 1 5F4E706C
-P 5150 6600
-F 0 "S1" H 5150 6947 60  0000 C CNN
-F 1 "Boot" H 5150 6841 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 5350 6800 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5350 6900 60  0001 L CNN
-F 4 "450-1804-ND" H 5350 7000 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-7" H 5350 7100 60  0001 L CNN "MPN"
-F 6 "Switches" H 5350 7200 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 5350 7300 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5350 7400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" H 5350 7500 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 5350 7600 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 5350 7700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5350 7800 60  0001 L CNN "Status"
-	1    5150 6600
+P 5200 6300
+F 0 "S1" H 5200 6647 60  0000 C CNN
+F 1 "Boot" H 5200 6541 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 5400 6500 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5400 6600 60  0001 L CNN
+F 4 "450-1804-ND" H 5400 6700 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-7" H 5400 6800 60  0001 L CNN "MPN"
+F 6 "Switches" H 5400 6900 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 5400 7000 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5400 7100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" H 5400 7200 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 5400 7300 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 5400 7400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5400 7500 60  0001 L CNN "Status"
+	1    5200 6300
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 6500 2    50   Input ~ 0
+Text GLabel 5500 6200 2    50   Input ~ 0
 Boot
 Wire Wire Line
-	5350 6500 5400 6500
+	5000 6200 4800 6200
 Wire Wire Line
-	4950 6500 4750 6500
+	4800 6200 4800 6300
 Wire Wire Line
-	4750 6500 4750 6600
-$Comp
-L power:+5V #PWR014
-U 1 1 5F4E9317
-P 5400 6100
-F 0 "#PWR014" H 5400 5950 50  0001 C CNN
-F 1 "+5V" H 5415 6273 50  0000 C CNN
-F 2 "" H 5400 6100 50  0001 C CNN
-F 3 "" H 5400 6100 50  0001 C CNN
-	1    5400 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 5F4E9D5C
-P 5400 6300
-F 0 "R1" H 5459 6346 50  0000 L CNN
-F 1 "10k" H 5459 6255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5400 6300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 5400 6300 50  0001 C CNN
-F 4 "603-MFR-12FTF52-10K" H 5400 6300 50  0001 C CNN "Field4"
-F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D" H 5400 6300 50  0001 C CNN "Mouser link"
-	1    5400 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 6100 5400 6200
-Wire Wire Line
-	5400 6400 5400 6500
-Connection ~ 5400 6500
-Wire Wire Line
-	5400 6500 5450 6500
+	5450 6750 5450 6850
 Text GLabel 4200 6500 2    50   Input ~ 0
 D+
 Text GLabel 4200 6400 2    50   Input ~ 0
@@ -3265,8 +3233,8 @@ F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1
 	1    8400 5950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5350 6700
-NoConn ~ 4950 6700
+NoConn ~ 5400 6400
+NoConn ~ 5000 6400
 Text GLabel 2650 2150 2    50   Input ~ 0
 col7
 Text GLabel 2650 3850 2    50   Input ~ 0
@@ -3278,12 +3246,43 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0101
 U 1 1 5F5C998A
-P 4750 6600
-F 0 "#PWR0101" H 4750 6350 50  0001 C CNN
-F 1 "GND" H 4755 6427 50  0000 C CNN
-F 2 "" H 4750 6600 50  0001 C CNN
-F 3 "" H 4750 6600 50  0001 C CNN
-	1    4750 6600
+P 4800 6300
+F 0 "#PWR0101" H 4800 6050 50  0001 C CNN
+F 1 "GND" H 4805 6127 50  0000 C CNN
+F 2 "" H 4800 6300 50  0001 C CNN
+F 3 "" H 4800 6300 50  0001 C CNN
+	1    4800 6300
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR014
+U 1 1 5F4E9317
+P 5450 6750
+F 0 "#PWR014" H 5450 6600 50  0001 C CNN
+F 1 "+5V" H 5465 6923 50  0000 C CNN
+F 2 "" H 5450 6750 50  0001 C CNN
+F 3 "" H 5450 6750 50  0001 C CNN
+	1    5450 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F4E9D5C
+P 5450 6950
+F 0 "R1" H 5509 6996 50  0000 L CNN
+F 1 "10k" H 5509 6905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5450 6950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 5450 6950 50  0001 C CNN
+F 4 "603-MFR-12FTF52-10K" H 5450 6950 50  0001 C CNN "Field4"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D" H 5450 6950 50  0001 C CNN "Mouser link"
+	1    5450 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6200 5500 6200
+Wire Wire Line
+	5450 7050 5450 7150
+Connection ~ 5450 7150
+Wire Wire Line
+	5450 7150 5500 7150
 $EndSCHEMATC
