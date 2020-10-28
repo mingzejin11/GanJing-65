@@ -8,7 +8,7 @@ The GanJing keyboard supports ISO layouts, as well as stepped caps lock keys. Th
 ## Schematic
 Inspired by the [Discipline](https://github.com/coseyfannitutti/discipline) and [Pheromone](https://github.com/luantty2/pheromone_keyboard) keyboards.
 
-![](./Images/GanJing_keyboard_schematic.png)
+![](./Images/GanJing_keyboard_schematic-1.png)
 ## PCB layout
 ### Front
 ![](./Images/GanJing_keyboard_PCB_front.png)
