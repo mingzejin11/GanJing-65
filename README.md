@@ -1,7 +1,7 @@
 # GanJing-keyboard
 **A 65% keyboard with a rotary encoder, OLED screen and USB-c. Made using only through-hole components for easy soldering.**
 
-[Bom](https://octopart.com/bom-tool/HPiXAxIx)
+[Bill of materials](https://octopart.com/bom-tool/HPiXAxIx)
 
 ## Layout options
 The GanJing keyboard supports ISO layouts, as well as stepped caps lock keys. The bottom row also supports alternate layouts.
