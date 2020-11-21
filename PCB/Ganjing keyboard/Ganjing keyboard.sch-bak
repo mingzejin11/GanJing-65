@@ -14,45 +14,45 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5450 7150 5500 7150
-Connection ~ 5450 7150
+	5400 6600 5450 6600
+Connection ~ 5400 6600
 Wire Wire Line
-	5450 7050 5450 7150
+	5400 6500 5400 6600
 Wire Wire Line
-	5400 6200 5500 6200
+	6750 6250 6850 6250
 $Comp
 L Device:R_Small R1
 U 1 1 5F4E9D5C
-P 5450 6950
-F 0 "R1" H 5509 6996 50  0000 L CNN
-F 1 "10k" H 5509 6905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5450 6950 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 5450 6950 50  0001 C CNN
-F 4 "603-MFR-12FTF52-10K" H 5450 6950 50  0001 C CNN "Field4"
-F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D" H 5450 6950 50  0001 C CNN "Mouser link"
-	1    5450 6950
+P 5400 6400
+F 0 "R1" H 5459 6446 50  0000 L CNN
+F 1 "10k" H 5459 6355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5400 6400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 5400 6400 50  0001 C CNN
+F 4 "603-MFR-12FTF52-10K" H 5400 6400 50  0001 C CNN "Field4"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D" H 5400 6400 50  0001 C CNN "Mouser link"
+	1    5400 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR014
 U 1 1 5F4E9317
-P 5450 6750
-F 0 "#PWR014" H 5450 6600 50  0001 C CNN
-F 1 "+5V" H 5465 6923 50  0000 C CNN
-F 2 "" H 5450 6750 50  0001 C CNN
-F 3 "" H 5450 6750 50  0001 C CNN
-	1    5450 6750
+P 5400 6200
+F 0 "#PWR014" H 5400 6050 50  0001 C CNN
+F 1 "+5V" H 5415 6373 50  0000 C CNN
+F 2 "" H 5400 6200 50  0001 C CNN
+F 3 "" H 5400 6200 50  0001 C CNN
+	1    5400 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5F5C998A
-P 4800 6300
-F 0 "#PWR0101" H 4800 6050 50  0001 C CNN
-F 1 "GND" H 4805 6127 50  0000 C CNN
-F 2 "" H 4800 6300 50  0001 C CNN
-F 3 "" H 4800 6300 50  0001 C CNN
-	1    4800 6300
+P 6150 6350
+F 0 "#PWR0101" H 6150 6100 50  0001 C CNN
+F 1 "GND" H 6155 6177 50  0000 C CNN
+F 2 "" H 6150 6350 50  0001 C CNN
+F 3 "" H 6150 6350 50  0001 C CNN
+	1    6150 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -63,32 +63,32 @@ Text GLabel 2650 3850 2    50   Input ~ 0
 col9
 Text GLabel 2650 2150 2    50   Input ~ 0
 col7
-NoConn ~ 5000 6400
-NoConn ~ 5400 6400
+NoConn ~ 6350 6450
+NoConn ~ 6750 6450
 $Comp
 L Device:C_Small C4
 U 1 1 609AA0F0
-P 8400 5950
-F 0 "C4" H 8500 6000 50  0000 L CNN
-F 1 "100nF" H 8500 5900 50  0000 L CNN
-F 2 "Keyboard:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8400 5950 50  0001 C CNN
-F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 8400 5950 50  0001 C CNN
-F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 8400 5950 50  0001 C CNN "Digikey #"
-F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 8400 5950 50  0001 C CNN "Digikey link"
-	1    8400 5950
+P 10350 6000
+F 0 "C4" H 10450 6050 50  0000 L CNN
+F 1 "100nF" H 10450 5950 50  0000 L CNN
+F 2 "Keyboard:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10350 6000 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 10350 6000 50  0001 C CNN
+F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 10350 6000 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 10350 6000 50  0001 C CNN "Digikey link"
+	1    10350 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R7
 U 1 1 609A8C45
-P 6500 6150
-F 0 "R7" V 6300 6150 50  0000 C CNN
-F 1 "1.5k" V 6400 6150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6500 6150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 6500 6150 50  0001 C CNN
-F 4 "603-MFR-12FTF52-1K5" H 6500 6150 50  0001 C CNN "Mouser #"
-F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-1K5?qs=oAGoVhmvjhypP%2FVrWmgF1g%3D%3D" H 6500 6150 50  0001 C CNN "Mouser link"
-	1    6500 6150
+P 8600 6000
+F 0 "R7" V 8400 6000 50  0000 C CNN
+F 1 "1.5k" V 8500 6000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8600 6000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 8600 6000 50  0001 C CNN
+F 4 "603-MFR-12FTF52-1K5" H 8600 6000 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-1K5?qs=oAGoVhmvjhypP%2FVrWmgF1g%3D%3D" H 8600 6000 50  0001 C CNN "Mouser link"
+	1    8600 6000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2538,58 +2538,7 @@ F 5 "https://www.digikey.ca/en/products/detail/microchip-technology/atmega32a-pu
 	1    2050 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10500 5850 10400 5850
-Text GLabel 10500 5850 2    50   Input ~ 0
-CapsLock
-$Comp
-L power:GND #PWR011
-U 1 1 5F632459
-P 9700 5950
-F 0 "#PWR011" H 9700 5700 50  0001 C CNN
-F 1 "GND" H 9705 5777 50  0000 C CNN
-F 2 "" H 9700 5950 50  0001 C CNN
-F 3 "" H 9700 5950 50  0001 C CNN
-	1    9700 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9700 5850 9700 5950
-Wire Wire Line
-	9800 5850 9700 5850
-Wire Wire Line
-	10000 5850 10100 5850
-$Comp
-L Device:R_Small R8
-U 1 1 5F62BAF8
-P 9900 5850
-F 0 "R8" V 9704 5850 50  0000 C CNN
-F 1 "62" V 9795 5850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9900 5850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 9900 5850 50  0001 C CNN
-F 4 "603-MFR-25FTE52-62R" V 9900 5850 50  0001 C CNN "Mouser #"
-F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-25FTE52-62R?qs=%2Fha2pyFadui%252BnL3Q99GBfj4WA5Kw0uiu%252B3xqpvRB%2FLZzSRFbs%252Bi59W%2Faej%2FR3Z61" V 9900 5850 50  0001 C CNN "Mouser link"
-	1    9900 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D68
-U 1 1 5F62B508
-P 10250 5850
-F 0 "D68" H 10243 6066 50  0000 C CNN
-F 1 "Caps" H 10243 5975 50  0000 C CNN
-F 2 "Keyboard:LED_D3.0mm" H 10250 5850 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4232N.pdf" H 10250 5850 50  0001 C CNN
-F 4 "160-1143-ND" H 10250 5850 50  0001 C CNN "Digikey #"
-F 5 "https://www.digikey.ca/en/products/detail/lite-on-inc/ltl-4232n/214439" H 10250 5850 50  0001 C CNN "Digikey link"
-	1    10250 5850
-	1    0    0    -1  
-$EndComp
-Text Notes 9250 5500 0    157  ~ 31
-Caps lock LED
 NoConn ~ 2650 4250
-Text GLabel 2650 4150 2    50   Input ~ 0
-CapsLock
 Text GLabel 2650 4550 2    50   Input ~ 0
 Boot
 Text GLabel 2650 4850 2    50   Input ~ 0
@@ -2840,11 +2789,11 @@ Wire Wire Line
 	1050 2250 1050 2300
 Text Notes 1850 800  0    157  ~ 31
 MCU
-Text Notes 8050 5500 0    157  ~ 31
+Text Notes 10000 5550 0    157  ~ 31
 Power
 Text Notes 4850 5800 0    157  ~ 31
 Reset
-Text Notes 6150 5800 0    157  ~ 31
+Text Notes 8200 5550 0    157  ~ 31
 Power LED
 Text Notes 2800 5150 0    157  ~ 31
 USB-c
@@ -3098,191 +3047,194 @@ D-
 Text GLabel 4200 6500 2    50   Input ~ 0
 D+
 Wire Wire Line
-	5450 6750 5450 6850
+	5400 6200 5400 6300
 Wire Wire Line
-	4800 6200 4800 6300
+	6150 6250 6150 6350
 Wire Wire Line
-	5000 6200 4800 6200
-Text GLabel 5500 6200 2    50   Input ~ 0
+	6350 6250 6150 6250
+Text GLabel 6850 6250 2    50   Input ~ 0
 Boot
 $Comp
 L Ganjing-keyboard-rescue:1825910-7-dk_Tactile-Switches S1
 U 1 1 5F4E706C
-P 5200 6300
-F 0 "S1" H 5200 6647 60  0000 C CNN
-F 1 "Boot" H 5200 6541 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 5400 6500 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5400 6600 60  0001 L CNN
-F 4 "450-1804-ND" H 5400 6700 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-7" H 5400 6800 60  0001 L CNN "MPN"
-F 6 "Switches" H 5400 6900 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 5400 7000 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5400 7100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" H 5400 7200 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 5400 7300 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 5400 7400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5400 7500 60  0001 L CNN "Status"
-	1    5200 6300
+P 6550 6350
+F 0 "S1" H 6550 6697 60  0000 C CNN
+F 1 "Boot" H 6550 6591 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 6750 6550 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6750 6650 60  0001 L CNN
+F 4 "450-1804-ND" H 6750 6750 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-7" H 6750 6850 60  0001 L CNN "MPN"
+F 6 "Switches" H 6750 6950 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 6750 7050 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6750 7150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" H 6750 7250 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 6750 7350 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 6750 7450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6750 7550 60  0001 L CNN "Status"
+	1    6550 6350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5000 7350
-NoConn ~ 5400 7350
+NoConn ~ 4950 6800
+NoConn ~ 5350 6800
 Wire Wire Line
-	4800 7150 5000 7150
+	4750 6600 4950 6600
 Wire Wire Line
-	5400 7150 5450 7150
+	5350 6600 5400 6600
 Wire Wire Line
-	4800 7150 4800 7250
+	4750 6600 4750 6700
 $Comp
 L Ganjing-keyboard-rescue:1825910-7-dk_Tactile-Switches S2
 U 1 1 5F4DDD6B
-P 5200 7250
-F 0 "S2" H 5200 7597 60  0000 C CNN
-F 1 "Reset" H 5200 7491 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 5400 7450 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5400 7550 60  0001 L CNN
-F 4 "450-1804-ND" H 5400 7650 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-7" H 5400 7750 60  0001 L CNN "MPN"
-F 6 "Switches" H 5400 7850 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 5400 7950 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5400 8050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" H 5400 8150 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 5400 8250 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 5400 8350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5400 8450 60  0001 L CNN "Status"
-	1    5200 7250
+P 5150 6700
+F 0 "S2" H 5150 7047 60  0000 C CNN
+F 1 "Reset" H 5150 6941 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 5350 6900 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5350 7000 60  0001 L CNN
+F 4 "450-1804-ND" H 5350 7100 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-7" H 5350 7200 60  0001 L CNN "MPN"
+F 6 "Switches" H 5350 7300 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 5350 7400 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5350 7500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" H 5350 7600 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 5350 7700 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 5350 7800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5350 7900 60  0001 L CNN "Status"
+	1    5150 6700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5500 7150 2    50   Input ~ 0
+Text GLabel 5450 6600 2    50   Input ~ 0
 Reset
 $Comp
 L power:GND #PWR019
 U 1 1 5F4DA3B8
-P 4800 7250
-F 0 "#PWR019" H 4800 7000 50  0001 C CNN
-F 1 "GND" H 4805 7077 50  0000 C CNN
-F 2 "" H 4800 7250 50  0001 C CNN
-F 3 "" H 4800 7250 50  0001 C CNN
-	1    4800 7250
+P 4750 6700
+F 0 "#PWR019" H 4750 6450 50  0001 C CNN
+F 1 "GND" H 4755 6527 50  0000 C CNN
+F 2 "" H 4750 6700 50  0001 C CNN
+F 3 "" H 4750 6700 50  0001 C CNN
+	1    4750 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 6150 6300 6200
+	8400 6000 8400 6050
 Wire Wire Line
-	6400 6150 6300 6150
+	8500 6000 8400 6000
 Wire Wire Line
-	6700 6150 6600 6150
+	8800 6000 8700 6000
 Wire Wire Line
-	7100 6150 7000 6150
+	9200 6000 9100 6000
 Wire Wire Line
-	7100 6050 7100 6150
+	9200 5900 9200 6000
 $Comp
 L Device:LED D69
 U 1 1 5F4D0275
-P 6850 6150
-F 0 "D69" H 6843 6366 50  0000 C CNN
-F 1 "Power" H 6843 6275 50  0000 C CNN
-F 2 "Keyboard:LED_D3.0mm" H 6850 6150 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4222N.pdf" H 6850 6150 50  0001 C CNN
-F 4 "160-1140-ND" H 6850 6150 50  0001 C CNN "Digikey #"
-F 5 "https://www.digikey.ca/en/products/detail/lite-on-inc/ltl-4222n/217566" H 6850 6150 50  0001 C CNN "Digikey link"
-	1    6850 6150
+P 8950 6000
+F 0 "D69" H 8943 6216 50  0000 C CNN
+F 1 "Power" H 8943 6125 50  0000 C CNN
+F 2 "Keyboard:LED_D3.0mm" H 8950 6000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4222N.pdf" H 8950 6000 50  0001 C CNN
+F 4 "160-1140-ND" H 8950 6000 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/lite-on-inc/ltl-4222n/217566" H 8950 6000 50  0001 C CNN "Digikey link"
+	1    8950 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR016
 U 1 1 5F4CFF8C
-P 6300 6200
-F 0 "#PWR016" H 6300 5950 50  0001 C CNN
-F 1 "GND" H 6305 6027 50  0000 C CNN
-F 2 "" H 6300 6200 50  0001 C CNN
-F 3 "" H 6300 6200 50  0001 C CNN
-	1    6300 6200
+P 8400 6050
+F 0 "#PWR016" H 8400 5800 50  0001 C CNN
+F 1 "GND" H 8405 5877 50  0000 C CNN
+F 2 "" H 8400 6050 50  0001 C CNN
+F 3 "" H 8400 6050 50  0001 C CNN
+	1    8400 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR013
 U 1 1 5F4CFAD5
-P 7100 6050
-F 0 "#PWR013" H 7100 5900 50  0001 C CNN
-F 1 "+5V" H 7115 6223 50  0000 C CNN
-F 2 "" H 7100 6050 50  0001 C CNN
-F 3 "" H 7100 6050 50  0001 C CNN
-	1    7100 6050
+P 9200 5900
+F 0 "#PWR013" H 9200 5750 50  0001 C CNN
+F 1 "+5V" H 9215 6073 50  0000 C CNN
+F 2 "" H 9200 5900 50  0001 C CNN
+F 3 "" H 9200 5900 50  0001 C CNN
+	1    9200 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 5750 8400 5800
+	10350 5800 10350 5850
 $Comp
 L power:+5V #PWR010
 U 1 1 5F4CDD8D
-P 8400 5750
-F 0 "#PWR010" H 8400 5600 50  0001 C CNN
-F 1 "+5V" H 8400 5900 50  0000 C CNN
-F 2 "" H 8400 5750 50  0001 C CNN
-F 3 "" H 8400 5750 50  0001 C CNN
-	1    8400 5750
+P 10350 5800
+F 0 "#PWR010" H 10350 5650 50  0001 C CNN
+F 1 "+5V" H 10350 5950 50  0000 C CNN
+F 2 "" H 10350 5800 50  0001 C CNN
+F 3 "" H 10350 5800 50  0001 C CNN
+	1    10350 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR015
 U 1 1 5F4CD697
-P 8400 6150
-F 0 "#PWR015" H 8400 5900 50  0001 C CNN
-F 1 "GND" H 8405 5977 50  0000 C CNN
-F 2 "" H 8400 6150 50  0001 C CNN
-F 3 "" H 8400 6150 50  0001 C CNN
-	1    8400 6150
+P 10350 6200
+F 0 "#PWR015" H 10350 5950 50  0001 C CNN
+F 1 "GND" H 10355 6027 50  0000 C CNN
+F 2 "" H 10350 6200 50  0001 C CNN
+F 3 "" H 10350 6200 50  0001 C CNN
+	1    10350 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 6100 8400 6150
-Connection ~ 8400 5800
+	10350 6150 10350 6200
+Connection ~ 10350 5850
 Wire Wire Line
-	8850 5800 8850 5850
+	10800 5850 10800 5900
 Wire Wire Line
-	8400 5800 8850 5800
+	10350 5850 10800 5850
 Wire Wire Line
-	7950 5800 7950 5850
+	9900 5850 9900 5900
 Wire Wire Line
-	8400 5800 7950 5800
+	10350 5850 9900 5850
 Wire Wire Line
-	8400 5850 8400 5800
+	10350 5900 10350 5850
 Wire Wire Line
-	8400 6100 8850 6100
-Connection ~ 8400 6100
+	10350 6150 10800 6150
+Connection ~ 10350 6150
 Wire Wire Line
-	8400 6050 8400 6100
+	10350 6100 10350 6150
 Wire Wire Line
-	8850 6100 8850 6050
+	10800 6150 10800 6100
 Wire Wire Line
-	7950 6100 8400 6100
+	9900 6150 10350 6150
 Wire Wire Line
-	7950 6050 7950 6100
+	9900 6100 9900 6150
 $Comp
 L Device:CP1_Small C5
 U 1 1 5F4C9663
-P 8850 5950
-F 0 "C5" H 8941 5996 50  0000 L CNN
-F 1 "4.7uF" H 8941 5905 50  0000 L CNN
-F 2 "Keyboard:CP_Radial_D4.0mm_P1.50mm" H 8850 5950 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/293/e-umt-1513284.pdf" H 8850 5950 50  0001 C CNN
-F 4 "647-UMT1H4R7MDD1TP" H 8850 5950 50  0001 C CNN "Mouser #"
-F 5 "https://www.mouser.com/ProductDetail/Nichicon/UMT1H4R7MDD1TP?qs=%2Fha2pyFadujbqVa03gPiasVqnqjW6WJ55IV%252Bqf4s1CeAhefl%2FqvLBw%3D%3D" H 8850 5950 50  0001 C CNN "Mouser link"
-	1    8850 5950
+P 10800 6000
+F 0 "C5" H 10891 6046 50  0000 L CNN
+F 1 "4.7uF" H 10891 5955 50  0000 L CNN
+F 2 "Keyboard:CP_Radial_D4.0mm_P1.50mm" H 10800 6000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/293/e-umt-1513284.pdf" H 10800 6000 50  0001 C CNN
+F 4 "647-UMT1H4R7MDD1TP" H 10800 6000 50  0001 C CNN "Mouser #"
+F 5 "https://www.mouser.com/ProductDetail/Nichicon/UMT1H4R7MDD1TP?qs=%2Fha2pyFadujbqVa03gPiasVqnqjW6WJ55IV%252Bqf4s1CeAhefl%2FqvLBw%3D%3D" H 10800 6000 50  0001 C CNN "Mouser link"
+	1    10800 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C3
 U 1 1 5F4C8C59
-P 7950 5950
-F 0 "C3" H 8050 6000 50  0000 L CNN
-F 1 "100nF" H 8050 5900 50  0000 L CNN
-F 2 "Keyboard:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7950 5950 50  0001 C CNN
-F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 7950 5950 50  0001 C CNN
-F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 7950 5950 50  0001 C CNN "Digikey #"
-F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 7950 5950 50  0001 C CNN "Digikey link"
-	1    7950 5950
+P 9900 6000
+F 0 "C3" H 10000 6050 50  0000 L CNN
+F 1 "100nF" H 10000 5950 50  0000 L CNN
+F 2 "Keyboard:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9900 6000 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 9900 6000 50  0001 C CNN
+F 4 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 9900 6000 50  0001 C CNN "Digikey #"
+F 5 "https://www.digikey.ca/en/products/detail/murata-electronics/rder71h104k0m1h03a/4771299" H 9900 6000 50  0001 C CNN "Digikey link"
+	1    9900 6000
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2650 4150
+Text Notes 6250 5800 0    157  ~ 31
+Boot
 $EndSCHEMATC
