@@ -14,7 +14,7 @@ GanJing keyboard acrylic case inspired by the discipline case. The entire case i
 
 ## Screws and Standoffs
 1. 3 x m2x4 standoffs
-2. 10 x m2x13 standoffs
+2. 12 x m2x13 standoffs
 3. 3 x m2x4mm screws
-4. 20 x m2x5mm screws
+4. 24 x m2x5mm screws
 5. 3 x m2x6mm screws
