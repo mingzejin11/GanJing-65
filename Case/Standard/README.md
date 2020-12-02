@@ -11,3 +11,10 @@ GanJing keyboard acrylic case inspired by the discipline case. The entire case i
 6. GanJing-bottom.dxf - 320.9 x 138.8 - ***3mm***
 7. GanJing-foot-1.dxf - 276.5 x 28mm - ***4.5mm***
 8. GanJing-foot-2.dxf - 272.5 x 24mm - ***4.5mm***
+
+## Screws and Standoffs
+1. 3 x m2x4 standoffs
+2. 10 x m2x13 standoffs
+3. 3 x m2x4mm screws
+4. 20 x m2x5mm screws
+5. 3 x m2x6mm screws
