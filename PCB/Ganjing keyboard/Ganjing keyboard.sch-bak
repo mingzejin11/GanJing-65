@@ -3126,10 +3126,10 @@ Wire Wire Line
 Wire Wire Line
 	9200 5900 9200 6000
 $Comp
-L Device:LED D69
+L Device:LED D68
 U 1 1 5F4D0275
 P 8950 6000
-F 0 "D69" H 8943 6216 50  0000 C CNN
+F 0 "D68" H 8943 6216 50  0000 C CNN
 F 1 "Power" H 8943 6125 50  0000 C CNN
 F 2 "Keyboard:LED_D3.0mm" H 8950 6000 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4222N.pdf" H 8950 6000 50  0001 C CNN
