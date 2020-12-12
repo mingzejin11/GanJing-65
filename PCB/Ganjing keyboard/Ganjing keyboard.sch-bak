@@ -2709,7 +2709,7 @@ U 1 1 5F4C38C0
 P 1050 1750
 F 0 "Y1" V 1004 1881 50  0000 L CNN
 F 1 "Crystal" V 1095 1881 50  0000 L CNN
-F 2 "GanJing-crystal:CTS-ATS16B-0" H 1050 1750 50  0001 C CNN
+F 2 "Keyboard:Crystal_HC49-4H_Vertical" H 1050 1750 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/3/ABL-1774766.pdf" H 1050 1750 50  0001 C CNN
 F 4 "815-ABL16000MHZB4YT" V 1050 1750 50  0001 C CNN "Mouser #"
 F 5 "https://www.mouser.com/ProductDetail/ABRACON/ABL-16000MHz-B4Y-T?qs=%2Fha2pyFaduhTESYjHsnyF1HLn9I6GCtWsUA5j38CAHHLq14gnldGnB7Xqhdnvp48" V 1050 1750 50  0001 C CNN "Mouser link"

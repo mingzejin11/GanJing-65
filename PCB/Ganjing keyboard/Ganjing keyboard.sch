@@ -92,10 +92,10 @@ F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-1K5?qs=oAGoVhmvjhypP
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener_Small D71
+L Device:D_Zener_Small D69
 U 1 1 609A7FF8
 P 3800 6950
-F 0 "D71" V 3750 7000 50  0000 L CNN
+F 0 "D69" V 3750 7000 50  0000 L CNN
 F 1 "3.6V" V 3850 7000 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" V 3800 6950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/tzxserie-1767901.pdf" V 3800 6950 50  0001 C CNN
@@ -2843,10 +2843,10 @@ F 3 "" H 3800 7500 50  0001 C CNN
 $EndComp
 Connection ~ 3300 7400
 $Comp
-L Device:D_Zener_Small D70
+L Device:D_Zener_Small D68
 U 1 1 5F4FECAA
 P 3700 6950
-F 0 "D70" V 3650 6750 50  0000 L CNN
+F 0 "D68" V 3650 6750 50  0000 L CNN
 F 1 "3.6V" V 3750 6750 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" V 3700 6950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/tzxserie-1767901.pdf" V 3700 6950 50  0001 C CNN
@@ -3126,10 +3126,10 @@ Wire Wire Line
 Wire Wire Line
 	9200 5900 9200 6000
 $Comp
-L Device:LED D68
+L Device:LED D70
 U 1 1 5F4D0275
 P 8950 6000
-F 0 "D68" H 8943 6216 50  0000 C CNN
+F 0 "D70" H 8943 6216 50  0000 C CNN
 F 1 "Power" H 8943 6125 50  0000 C CNN
 F 2 "Keyboard:LED_D3.0mm" H 8950 6000 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-4222N.pdf" H 8950 6000 50  0001 C CNN
