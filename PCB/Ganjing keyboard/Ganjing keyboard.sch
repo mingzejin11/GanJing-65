@@ -66,10 +66,10 @@ col7
 NoConn ~ 6350 6450
 NoConn ~ 6750 6450
 $Comp
-L Device:C_Small C4
+L Device:C_Small C3
 U 1 1 609AA0F0
 P 10350 6000
-F 0 "C4" H 10450 6050 50  0000 L CNN
+F 0 "C3" H 10450 6050 50  0000 L CNN
 F 1 "100nF" H 10450 5950 50  0000 L CNN
 F 2 "Keyboard:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10350 6000 50  0001 C CNN
 F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 10350 6000 50  0001 C CNN
@@ -131,10 +131,10 @@ F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-5K1?qs=oAGoVhmvjhy1w
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C1
+L Device:C_Small C5
 U 1 1 609A5F14
 P 800 2100
-F 0 "C1" H 600 2150 50  0000 L CNN
+F 0 "C5" H 600 2150 50  0000 L CNN
 F 1 "22pF" H 550 2050 50  0000 L CNN
 F 2 "Keyboard:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 800 2100 50  0001 C CNN
 F 3 "~" H 800 2100 50  0001 C CNN
@@ -2730,10 +2730,10 @@ NoConn ~ 1450 2050
 Wire Wire Line
 	1050 1900 1300 1900
 $Comp
-L Device:C_Small C2
+L Device:C_Small C4
 U 1 1 5F4C5281
 P 1050 2100
-F 0 "C2" H 1150 2150 50  0000 L CNN
+F 0 "C4" H 1150 2150 50  0000 L CNN
 F 1 "22pF" H 1142 2055 50  0000 L CNN
 F 2 "Keyboard:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1050 2100 50  0001 C CNN
 F 3 "~" H 1050 2100 50  0001 C CNN
@@ -3055,10 +3055,10 @@ Wire Wire Line
 Text GLabel 6850 6250 2    50   Input ~ 0
 Boot
 $Comp
-L Ganjing-keyboard-rescue:1825910-7-dk_Tactile-Switches S1
+L Ganjing-keyboard-rescue:1825910-7-dk_Tactile-Switches S2
 U 1 1 5F4E706C
 P 6550 6350
-F 0 "S1" H 6550 6697 60  0000 C CNN
+F 0 "S2" H 6550 6697 60  0000 C CNN
 F 1 "Boot" H 6550 6591 60  0000 C CNN
 F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 6750 6550 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6750 6650 60  0001 L CNN
@@ -3083,10 +3083,10 @@ Wire Wire Line
 Wire Wire Line
 	4750 6600 4750 6700
 $Comp
-L Ganjing-keyboard-rescue:1825910-7-dk_Tactile-Switches S2
+L Ganjing-keyboard-rescue:1825910-7-dk_Tactile-Switches S1
 U 1 1 5F4DDD6B
 P 5150 6700
-F 0 "S2" H 5150 7047 60  0000 C CNN
+F 0 "S1" H 5150 7047 60  0000 C CNN
 F 1 "Reset" H 5150 6941 60  0000 C CNN
 F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 5350 6900 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5350 7000 60  0001 L CNN
@@ -3209,10 +3209,10 @@ Wire Wire Line
 Wire Wire Line
 	9900 6100 9900 6150
 $Comp
-L Device:CP1_Small C5
+L Device:CP1_Small C1
 U 1 1 5F4C9663
 P 10800 6000
-F 0 "C5" H 10891 6046 50  0000 L CNN
+F 0 "C1" H 10891 6046 50  0000 L CNN
 F 1 "4.7uF" H 10891 5955 50  0000 L CNN
 F 2 "Keyboard:CP_Radial_D4.0mm_P1.50mm" H 10800 6000 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/293/e-umt-1513284.pdf" H 10800 6000 50  0001 C CNN
@@ -3222,10 +3222,10 @@ F 5 "https://www.mouser.com/ProductDetail/Nichicon/UMT1H4R7MDD1TP?qs=%2Fha2pyFad
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C3
+L Device:C_Small C2
 U 1 1 5F4C8C59
 P 9900 6000
-F 0 "C3" H 10000 6050 50  0000 L CNN
+F 0 "C2" H 10000 6050 50  0000 L CNN
 F 1 "100nF" H 10000 5950 50  0000 L CNN
 F 2 "Keyboard:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9900 6000 50  0001 C CNN
 F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 9900 6000 50  0001 C CNN
