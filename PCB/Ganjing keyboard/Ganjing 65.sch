@@ -66,10 +66,10 @@ col7
 NoConn ~ 6350 6450
 NoConn ~ 6750 6450
 $Comp
-L Device:C_Small C4
+L Device:C_Small C3
 U 1 1 609AA0F0
 P 10350 6000
-F 0 "C4" H 10450 6050 50  0000 L CNN
+F 0 "C3" H 10450 6050 50  0000 L CNN
 F 1 "100nF" H 10450 5950 50  0000 L CNN
 F 2 "Keyboard:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10350 6000 50  0001 C CNN
 F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 10350 6000 50  0001 C CNN
@@ -131,10 +131,10 @@ F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-5K1?qs=oAGoVhmvjhy1w
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C1
+L Device:C_Small C5
 U 1 1 609A5F14
 P 800 2100
-F 0 "C1" H 600 2150 50  0000 L CNN
+F 0 "C5" H 600 2150 50  0000 L CNN
 F 1 "22pF" H 550 2050 50  0000 L CNN
 F 2 "Keyboard:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 800 2100 50  0001 C CNN
 F 3 "~" H 800 2100 50  0001 C CNN
@@ -1241,7 +1241,7 @@ SW15A
 Text GLabel 1000 7250 0    50   Input ~ 0
 SW15B
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX1
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX1
 U 1 1 5F6443C2
 P 4550 1550
 F 0 "MX1" H 4583 1773 60  0000 C CNN
@@ -1252,7 +1252,7 @@ F 3 "" H 3925 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX2
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX2
 U 1 1 5F645376
 P 4950 1550
 F 0 "MX2" H 4983 1773 60  0000 C CNN
@@ -1263,7 +1263,7 @@ F 3 "" H 4325 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX3
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX3
 U 1 1 5F645CA0
 P 5350 1550
 F 0 "MX3" H 5383 1773 60  0000 C CNN
@@ -1274,7 +1274,7 @@ F 3 "" H 4725 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX5
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX5
 U 1 1 5F646886
 P 6150 1550
 F 0 "MX5" H 6183 1773 60  0000 C CNN
@@ -1285,7 +1285,7 @@ F 3 "" H 5525 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX4
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX4
 U 1 1 5F6462E5
 P 5750 1550
 F 0 "MX4" H 5783 1773 60  0000 C CNN
@@ -1296,7 +1296,7 @@ F 3 "" H 5125 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX6
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX6
 U 1 1 5F6516D8
 P 6550 1550
 F 0 "MX6" H 6583 1773 60  0000 C CNN
@@ -1307,7 +1307,7 @@ F 3 "" H 5925 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX7
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX7
 U 1 1 5F6516DE
 P 6950 1550
 F 0 "MX7" H 6983 1773 60  0000 C CNN
@@ -1318,7 +1318,7 @@ F 3 "" H 6325 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX8
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX8
 U 1 1 5F6516E4
 P 7350 1550
 F 0 "MX8" H 7383 1773 60  0000 C CNN
@@ -1329,7 +1329,7 @@ F 3 "" H 6725 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX10
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX10
 U 1 1 5F6516EA
 P 8150 1550
 F 0 "MX10" H 8183 1773 60  0000 C CNN
@@ -1340,7 +1340,7 @@ F 3 "" H 7525 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX9
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX9
 U 1 1 5F6516F0
 P 7750 1550
 F 0 "MX9" H 7783 1773 60  0000 C CNN
@@ -1351,7 +1351,7 @@ F 3 "" H 7125 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX11
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX11
 U 1 1 5F655E2C
 P 8550 1550
 F 0 "MX11" H 8583 1773 60  0000 C CNN
@@ -1362,7 +1362,7 @@ F 3 "" H 7925 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX12
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX12
 U 1 1 5F655E32
 P 8950 1550
 F 0 "MX12" H 8983 1773 60  0000 C CNN
@@ -1373,7 +1373,7 @@ F 3 "" H 8325 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX13
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX13
 U 1 1 5F655E38
 P 9350 1550
 F 0 "MX13" H 9383 1773 60  0000 C CNN
@@ -1384,7 +1384,7 @@ F 3 "" H 8725 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX14
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX14
 U 1 1 5F655E44
 P 9750 1550
 F 0 "MX14" H 9783 1773 60  0000 C CNN
@@ -1395,7 +1395,7 @@ F 3 "" H 9125 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX16
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX16
 U 1 1 5F688E7A
 P 4550 2300
 F 0 "MX16" H 4583 2523 60  0000 C CNN
@@ -1406,7 +1406,7 @@ F 3 "" H 3925 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX17
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX17
 U 1 1 5F688E80
 P 4950 2300
 F 0 "MX17" H 4983 2523 60  0000 C CNN
@@ -1417,7 +1417,7 @@ F 3 "" H 4325 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX18
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX18
 U 1 1 5F688E86
 P 5350 2300
 F 0 "MX18" H 5383 2523 60  0000 C CNN
@@ -1428,7 +1428,7 @@ F 3 "" H 4725 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX20
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX20
 U 1 1 5F688E8C
 P 6150 2300
 F 0 "MX20" H 6183 2523 60  0000 C CNN
@@ -1439,7 +1439,7 @@ F 3 "" H 5525 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX19
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX19
 U 1 1 5F688E92
 P 5750 2300
 F 0 "MX19" H 5783 2523 60  0000 C CNN
@@ -1450,7 +1450,7 @@ F 3 "" H 5125 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX21
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX21
 U 1 1 5F688E98
 P 6550 2300
 F 0 "MX21" H 6583 2523 60  0000 C CNN
@@ -1461,7 +1461,7 @@ F 3 "" H 5925 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX22
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX22
 U 1 1 5F688E9E
 P 6950 2300
 F 0 "MX22" H 6983 2523 60  0000 C CNN
@@ -1472,7 +1472,7 @@ F 3 "" H 6325 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX23
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX23
 U 1 1 5F688EA4
 P 7350 2300
 F 0 "MX23" H 7383 2523 60  0000 C CNN
@@ -1483,7 +1483,7 @@ F 3 "" H 6725 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX25
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX25
 U 1 1 5F688EAA
 P 8150 2300
 F 0 "MX25" H 8183 2523 60  0000 C CNN
@@ -1494,7 +1494,7 @@ F 3 "" H 7525 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX24
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX24
 U 1 1 5F688EB0
 P 7750 2300
 F 0 "MX24" H 7783 2523 60  0000 C CNN
@@ -1505,7 +1505,7 @@ F 3 "" H 7125 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX26
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX26
 U 1 1 5F688EB6
 P 8550 2300
 F 0 "MX26" H 8583 2523 60  0000 C CNN
@@ -1516,7 +1516,7 @@ F 3 "" H 7925 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX27
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX27
 U 1 1 5F688EBC
 P 8950 2300
 F 0 "MX27" H 8983 2523 60  0000 C CNN
@@ -1527,7 +1527,7 @@ F 3 "" H 8325 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX28
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX28
 U 1 1 5F688EC2
 P 9350 2300
 F 0 "MX28" H 9383 2523 60  0000 C CNN
@@ -1538,7 +1538,7 @@ F 3 "" H 8725 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX29
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX29
 U 1 1 5F688ECE
 P 9750 2300
 F 0 "MX29" H 9783 2523 60  0000 C CNN
@@ -1549,7 +1549,7 @@ F 3 "" H 9125 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX31
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX31
 U 1 1 5F691AD8
 P 4550 3050
 F 0 "MX31" H 4583 3273 60  0000 C CNN
@@ -1560,7 +1560,7 @@ F 3 "" H 3925 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX32
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX32
 U 1 1 5F691ADE
 P 4950 3050
 F 0 "MX32" H 4983 3273 60  0000 C CNN
@@ -1571,7 +1571,7 @@ F 3 "" H 4325 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX33
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX33
 U 1 1 5F691AE4
 P 5350 3050
 F 0 "MX33" H 5383 3273 60  0000 C CNN
@@ -1582,7 +1582,7 @@ F 3 "" H 4725 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX35
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX35
 U 1 1 5F691AEA
 P 6150 3050
 F 0 "MX35" H 6183 3273 60  0000 C CNN
@@ -1593,7 +1593,7 @@ F 3 "" H 5525 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX34
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX34
 U 1 1 5F691AF0
 P 5750 3050
 F 0 "MX34" H 5783 3273 60  0000 C CNN
@@ -1604,7 +1604,7 @@ F 3 "" H 5125 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX36
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX36
 U 1 1 5F691AF6
 P 6550 3050
 F 0 "MX36" H 6583 3273 60  0000 C CNN
@@ -1615,7 +1615,7 @@ F 3 "" H 5925 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX37
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX37
 U 1 1 5F691AFC
 P 6950 3050
 F 0 "MX37" H 6983 3273 60  0000 C CNN
@@ -1626,7 +1626,7 @@ F 3 "" H 6325 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX38
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX38
 U 1 1 5F691B02
 P 7350 3050
 F 0 "MX38" H 7383 3273 60  0000 C CNN
@@ -1637,7 +1637,7 @@ F 3 "" H 6725 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX40
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX40
 U 1 1 5F691B08
 P 8150 3050
 F 0 "MX40" H 8183 3273 60  0000 C CNN
@@ -1648,7 +1648,7 @@ F 3 "" H 7525 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX39
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX39
 U 1 1 5F691B0E
 P 7750 3050
 F 0 "MX39" H 7783 3273 60  0000 C CNN
@@ -1659,7 +1659,7 @@ F 3 "" H 7125 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX41
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX41
 U 1 1 5F691B14
 P 8550 3050
 F 0 "MX41" H 8583 3273 60  0000 C CNN
@@ -1670,7 +1670,7 @@ F 3 "" H 7925 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX42
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX42
 U 1 1 5F691B1A
 P 8950 3050
 F 0 "MX42" H 8983 3273 60  0000 C CNN
@@ -1681,7 +1681,7 @@ F 3 "" H 8325 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX43
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX43
 U 1 1 5F691B20
 P 9750 3050
 F 0 "MX43" H 9783 3273 60  0000 C CNN
@@ -1692,7 +1692,7 @@ F 3 "" H 9125 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX68
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX68
 U 1 1 5F691B2C
 P 10150 2300
 F 0 "MX68" H 10183 2523 60  0000 C CNN
@@ -1703,7 +1703,7 @@ F 3 "" H 9525 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX45
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX45
 U 1 1 5F69B0E2
 P 4550 3800
 F 0 "MX45" H 4583 4023 60  0000 C CNN
@@ -1714,7 +1714,7 @@ F 3 "" H 3925 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX67
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX67
 U 1 1 5F69B0E8
 P 4950 3800
 F 0 "MX67" H 4983 4023 60  0000 C CNN
@@ -1725,7 +1725,7 @@ F 3 "" H 4325 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX46
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX46
 U 1 1 5F69B0EE
 P 5350 3800
 F 0 "MX46" H 5383 4023 60  0000 C CNN
@@ -1736,7 +1736,7 @@ F 3 "" H 4725 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX48
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX48
 U 1 1 5F69B0F4
 P 6150 3800
 F 0 "MX48" H 6183 4023 60  0000 C CNN
@@ -1747,7 +1747,7 @@ F 3 "" H 5525 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX47
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX47
 U 1 1 5F69B0FA
 P 5750 3800
 F 0 "MX47" H 5783 4023 60  0000 C CNN
@@ -1758,7 +1758,7 @@ F 3 "" H 5125 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX49
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX49
 U 1 1 5F69B100
 P 6550 3800
 F 0 "MX49" H 6583 4023 60  0000 C CNN
@@ -1769,7 +1769,7 @@ F 3 "" H 5925 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX50
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX50
 U 1 1 5F69B106
 P 6950 3800
 F 0 "MX50" H 6983 4023 60  0000 C CNN
@@ -1780,7 +1780,7 @@ F 3 "" H 6325 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX51
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX51
 U 1 1 5F69B10C
 P 7350 3800
 F 0 "MX51" H 7383 4023 60  0000 C CNN
@@ -1791,7 +1791,7 @@ F 3 "" H 6725 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX53
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX53
 U 1 1 5F69B112
 P 8150 3800
 F 0 "MX53" H 8183 4023 60  0000 C CNN
@@ -1802,7 +1802,7 @@ F 3 "" H 7525 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX52
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX52
 U 1 1 5F69B118
 P 7750 3800
 F 0 "MX52" H 7783 4023 60  0000 C CNN
@@ -1813,7 +1813,7 @@ F 3 "" H 7125 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX54
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX54
 U 1 1 5F69B11E
 P 8550 3800
 F 0 "MX54" H 8583 4023 60  0000 C CNN
@@ -1824,7 +1824,7 @@ F 3 "" H 7925 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX55
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX55
 U 1 1 5F69B124
 P 8950 3800
 F 0 "MX55" H 8983 4023 60  0000 C CNN
@@ -1835,7 +1835,7 @@ F 3 "" H 8325 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX56
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX56
 U 1 1 5F69B12A
 P 9350 3800
 F 0 "MX56" H 9383 4023 60  0000 C CNN
@@ -1846,7 +1846,7 @@ F 3 "" H 8725 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX57
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX57
 U 1 1 5F69B136
 P 9750 3800
 F 0 "MX57" H 9783 4023 60  0000 C CNN
@@ -1857,7 +1857,7 @@ F 3 "" H 9125 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX59
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX59
 U 1 1 5F6A4698
 P 4550 4550
 F 0 "MX59" H 4583 4773 60  0000 C CNN
@@ -1868,7 +1868,7 @@ F 3 "" H 3925 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX60
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX60
 U 1 1 5F6A469E
 P 4950 4550
 F 0 "MX60" H 4983 4773 60  0000 C CNN
@@ -1879,7 +1879,7 @@ F 3 "" H 4325 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX61
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX61
 U 1 1 5F6A46A4
 P 5350 4550
 F 0 "MX61" H 5383 4773 60  0000 C CNN
@@ -1890,7 +1890,7 @@ F 3 "" H 4725 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX62
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX62
 U 1 1 5F6A46BC
 P 6950 4550
 F 0 "MX62" H 6983 4773 60  0000 C CNN
@@ -1901,7 +1901,7 @@ F 3 "" H 6325 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX63
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX63
 U 1 1 5F6A46DA
 P 8950 4550
 F 0 "MX63" H 8983 4773 60  0000 C CNN
@@ -1912,7 +1912,7 @@ F 3 "" H 8325 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX64
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX64
 U 1 1 5F6A46E0
 P 9350 4550
 F 0 "MX64" H 9383 4773 60  0000 C CNN
@@ -1923,7 +1923,7 @@ F 3 "" H 8725 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX65
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX65
 U 1 1 5F6A46EC
 P 9750 4550
 F 0 "MX65" H 9783 4773 60  0000 C CNN
@@ -1936,7 +1936,7 @@ $EndComp
 Text Notes 6700 800  0    157  ~ 31
 Keyboard layout
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX69
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX69
 U 1 1 5F746B17
 P 4150 3050
 F 0 "MX69" H 4183 3273 60  0000 C CNN
@@ -1947,7 +1947,7 @@ F 3 "" H 3525 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX71
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX71
 U 1 1 5F747090
 P 4150 3800
 F 0 "MX71" H 4183 4023 60  0000 C CNN
@@ -1958,7 +1958,7 @@ F 3 "" H 3525 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX72
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX72
 U 1 1 5F7478A6
 P 4550 5300
 F 0 "MX72" H 4583 5523 60  0000 C CNN
@@ -1969,7 +1969,7 @@ F 3 "" H 3925 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX73
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX73
 U 1 1 5F748108
 P 4950 5300
 F 0 "MX73" H 4983 5523 60  0000 C CNN
@@ -1984,7 +1984,7 @@ SW15B
 Text GLabel 10700 1500 0    31   Input ~ 0
 SW15A
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX66
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX66
 U 1 1 5F6A46E6
 P 10550 4550
 F 0 "MX66" H 10583 4773 60  0000 C CNN
@@ -1995,7 +1995,7 @@ F 3 "" H 9925 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX58
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX58
 U 1 1 5F69B130
 P 10550 3800
 F 0 "MX58" H 10583 4023 60  0000 C CNN
@@ -2006,7 +2006,7 @@ F 3 "" H 9925 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX44
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX44
 U 1 1 5F691B26
 P 10550 3050
 F 0 "MX44" H 10583 3273 60  0000 C CNN
@@ -2017,7 +2017,7 @@ F 3 "" H 9925 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX30
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX30
 U 1 1 5F688EC8
 P 10550 2300
 F 0 "MX30" H 10583 2523 60  0000 C CNN
@@ -2028,7 +2028,7 @@ F 3 "" H 9925 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX70
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX70
 U 1 1 5F7670D2
 P 10150 3050
 F 0 "MX70" H 10183 3273 60  0000 C CNN
@@ -2039,7 +2039,7 @@ F 3 "" H 9525 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX74
+L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX74
 U 1 1 5F782119
 P 6950 5300
 F 0 "MX74" H 6983 5523 60  0000 C CNN
@@ -2526,7 +2526,7 @@ col13
 Text GLabel 10800 1250 1    50   Input ~ 0
 col14
 $Comp
-L Ganjing-keyboard-rescue:ATmega32A-PU-MCU_Microchip_ATmega U1
+L Ganjing-65-rescue:ATmega32A-PU-MCU_Microchip_ATmega-Ganjing-keyboard-rescue U1
 U 1 1 5F4BE11D
 P 2050 3150
 F 0 "U1" H 2050 3150 50  0000 C CNN
@@ -2667,7 +2667,7 @@ $EndComp
 Wire Wire Line
 	800  4950 800  4850
 $Comp
-L Ganjing-keyboard-rescue:AVR-ISP-6-USB_C_GCT_USB4085 J2
+L Ganjing-65-rescue:AVR-ISP-6-USB_C_GCT_USB4085-Ganjing-keyboard-rescue J2
 U 1 1 5F5BCB1B
 P 900 5300
 F 0 "J2" H 900 5700 50  0000 R CNN
@@ -2730,10 +2730,10 @@ NoConn ~ 1450 2050
 Wire Wire Line
 	1050 1900 1300 1900
 $Comp
-L Device:C_Small C2
+L Device:C_Small C4
 U 1 1 5F4C5281
 P 1050 2100
-F 0 "C2" H 1150 2150 50  0000 L CNN
+F 0 "C4" H 1150 2150 50  0000 L CNN
 F 1 "22pF" H 1142 2055 50  0000 L CNN
 F 2 "Keyboard:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1050 2100 50  0001 C CNN
 F 3 "~" H 1050 2100 50  0001 C CNN
@@ -3030,7 +3030,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 5800 3000 5800
 $Comp
-L Ganjing-keyboard-rescue:USB_C_GCT_USB4085-USB_C_GCT_USB4085 USB1
+L Ganjing-65-rescue:USB_C_GCT_USB4085-USB_C_GCT_USB4085-Ganjing-keyboard-rescue USB1
 U 1 1 5F4C7F99
 P 2650 6600
 F 0 "USB1" H 2658 7665 50  0000 C CNN
@@ -3055,7 +3055,7 @@ Wire Wire Line
 Text GLabel 6850 6250 2    50   Input ~ 0
 Boot
 $Comp
-L Ganjing-keyboard-rescue:1825910-7-dk_Tactile-Switches S2
+L Ganjing-65-rescue:1825910-7-dk_Tactile-Switches-Ganjing-keyboard-rescue S2
 U 1 1 5F4E706C
 P 6550 6350
 F 0 "S2" H 6550 6697 60  0000 C CNN
@@ -3083,7 +3083,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 6600 4750 6700
 $Comp
-L Ganjing-keyboard-rescue:1825910-7-dk_Tactile-Switches S1
+L Ganjing-65-rescue:1825910-7-dk_Tactile-Switches-Ganjing-keyboard-rescue S1
 U 1 1 5F4DDD6B
 P 5150 6700
 F 0 "S1" H 5150 7047 60  0000 C CNN
@@ -3209,10 +3209,10 @@ Wire Wire Line
 Wire Wire Line
 	9900 6100 9900 6150
 $Comp
-L Device:CP1_Small C5
+L Device:CP1_Small C1
 U 1 1 5F4C9663
 P 10800 6000
-F 0 "C5" H 10891 6046 50  0000 L CNN
+F 0 "C1" H 10891 6046 50  0000 L CNN
 F 1 "4.7uF" H 10891 5955 50  0000 L CNN
 F 2 "Keyboard:CP_Radial_D4.0mm_P1.50mm" H 10800 6000 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/293/e-umt-1513284.pdf" H 10800 6000 50  0001 C CNN
@@ -3222,10 +3222,10 @@ F 5 "https://www.mouser.com/ProductDetail/Nichicon/UMT1H4R7MDD1TP?qs=%2Fha2pyFad
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C3
+L Device:C_Small C2
 U 1 1 5F4C8C59
 P 9900 6000
-F 0 "C3" H 10000 6050 50  0000 L CNN
+F 0 "C2" H 10000 6050 50  0000 L CNN
 F 1 "100nF" H 10000 5950 50  0000 L CNN
 F 2 "Keyboard:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9900 6000 50  0001 C CNN
 F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 9900 6000 50  0001 C CNN

@@ -225,11 +225,11 @@ X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ganjing-keyboard-rescue_1825910-7-dk_Tactile-Switches
+# Ganjing-65-rescue_1825910-7-dk_Tactile-Switches-Ganjing-keyboard-rescue
 #
-DEF Ganjing-keyboard-rescue_1825910-7-dk_Tactile-Switches S 0 40 Y Y 1 F N
+DEF Ganjing-65-rescue_1825910-7-dk_Tactile-Switches-Ganjing-keyboard-rescue S 0 40 Y Y 1 F N
 F0 "S" 0 180 60 H V C CNN
-F1 "Ganjing-keyboard-rescue_1825910-7-dk_Tactile-Switches" 0 -225 60 H V C CNN
+F1 "Ganjing-65-rescue_1825910-7-dk_Tactile-Switches-Ganjing-keyboard-rescue" 0 -225 60 H V C CNN
 F2 "digikey-footprints:Switch_Tactile_THT_6x6mm" 200 200 60 H I L CNN
 F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
 F4 "450-1804-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -258,11 +258,11 @@ X ~ 4 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ganjing-keyboard-rescue_ATmega32A-PU-MCU_Microchip_ATmega
+# Ganjing-65-rescue_ATmega32A-PU-MCU_Microchip_ATmega-Ganjing-keyboard-rescue
 #
-DEF Ganjing-keyboard-rescue_ATmega32A-PU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
+DEF Ganjing-65-rescue_ATmega32A-PU-MCU_Microchip_ATmega-Ganjing-keyboard-rescue U 0 20 Y Y 1 F N
 F0 "U" -500 1950 50 H V L BNN
-F1 "Ganjing-keyboard-rescue_ATmega32A-PU-MCU_Microchip_ATmega" 100 -1950 50 H V L TNN
+F1 "Ganjing-65-rescue_ATmega32A-PU-MCU_Microchip_ATmega-Ganjing-keyboard-rescue" 100 -1950 50 H V L TNN
 F2 "Package_DIP:DIP-40_W15.24mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -313,11 +313,11 @@ X ~RESET 9 -600 1700 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Ganjing-keyboard-rescue_AVR-ISP-6-USB_C_GCT_USB4085
+# Ganjing-65-rescue_AVR-ISP-6-USB_C_GCT_USB4085-Ganjing-keyboard-rescue
 #
-DEF Ganjing-keyboard-rescue_AVR-ISP-6-USB_C_GCT_USB4085 J 0 40 Y Y 1 F N
+DEF Ganjing-65-rescue_AVR-ISP-6-USB_C_GCT_USB4085-Ganjing-keyboard-rescue J 0 40 Y Y 1 F N
 F0 "J" -50 400 50 H V C CNN
-F1 "Ganjing-keyboard-rescue_AVR-ISP-6-USB_C_GCT_USB4085" 150 300 50 H V C CNN
+F1 "Ganjing-65-rescue_AVR-ISP-6-USB_C_GCT_USB4085-Ganjing-keyboard-rescue" 150 300 50 H V C CNN
 F2 "" -150 150 157 H I C CNN
 F3 "" -150 150 157 H I C CNN
 DRAW
@@ -331,11 +331,11 @@ X GND 6 -100 -350 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ganjing-keyboard-rescue_MX-NoLED-MX_Alps_Hybrid
+# Ganjing-65-rescue_MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue
 #
-DEF Ganjing-keyboard-rescue_MX-NoLED-MX_Alps_Hybrid MX 0 40 Y Y 1 F N
+DEF Ganjing-65-rescue_MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX 0 40 Y Y 1 F N
 F0 "MX" -25 150 60 H V C CNN
-F1 "Ganjing-keyboard-rescue_MX-NoLED-MX_Alps_Hybrid" -25 50 20 H V C CNN
+F1 "Ganjing-65-rescue_MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue" -25 50 20 H V C CNN
 F2 "" -625 -25 60 H I C CNN
 F3 "" -625 -25 60 H I C CNN
 DRAW
@@ -349,11 +349,11 @@ X ROW 2 -50 -150 100 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ganjing-keyboard-rescue_USB_C_GCT_USB4085-USB_C_GCT_USB4085
+# Ganjing-65-rescue_USB_C_GCT_USB4085-USB_C_GCT_USB4085-Ganjing-keyboard-rescue
 #
-DEF Ganjing-keyboard-rescue_USB_C_GCT_USB4085-USB_C_GCT_USB4085 USB 0 40 Y Y 1 F N
+DEF Ganjing-65-rescue_USB_C_GCT_USB4085-USB_C_GCT_USB4085-Ganjing-keyboard-rescue USB 0 40 Y Y 1 F N
 F0 "USB" -50 1100 50 H V C CNN
-F1 "Ganjing-keyboard-rescue_USB_C_GCT_USB4085-USB_C_GCT_USB4085" -50 1000 50 H V C CNN
+F1 "Ganjing-65-rescue_USB_C_GCT_USB4085-USB_C_GCT_USB4085-Ganjing-keyboard-rescue" -50 1000 50 H V C CNN
 F2 "" -50 550 50 H I C CNN
 F3 "" -50 550 50 H I C CNN
 DRAW
