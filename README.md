@@ -1,4 +1,4 @@
-# GanJing-keyboard
+# GanJing 65
 **A 65% keyboard with a rotary encoder, OLED screen and USB-c. Made using only through-hole components for easy soldering.**
 
 [Bill of materials](https://octopart.com/bom-tool/HPiXAxIx)
