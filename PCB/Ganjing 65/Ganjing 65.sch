@@ -26,7 +26,7 @@ U 1 1 5F4E9D5C
 P 5400 6400
 F 0 "R1" H 5459 6446 50  0000 L CNN
 F 1 "10k" H 5459 6355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5400 6400 50  0001 C CNN
+F 2 "Keyboard:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5400 6400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 5400 6400 50  0001 C CNN
 F 4 "603-MFR-12FTF52-10K" H 5400 6400 50  0001 C CNN "Field4"
 F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D" H 5400 6400 50  0001 C CNN "Mouser link"
@@ -63,8 +63,6 @@ Text GLabel 2650 3850 2    50   Input ~ 0
 col9
 Text GLabel 2650 2150 2    50   Input ~ 0
 col7
-NoConn ~ 6350 6450
-NoConn ~ 6750 6450
 $Comp
 L Device:C_Small C3
 U 1 1 609AA0F0
@@ -84,7 +82,7 @@ U 1 1 609A8C45
 P 8600 6000
 F 0 "R7" V 8400 6000 50  0000 C CNN
 F 1 "1.5k" V 8500 6000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8600 6000 50  0001 C CNN
+F 2 "Keyboard:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 8600 6000 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 8600 6000 50  0001 C CNN
 F 4 "603-MFR-12FTF52-1K5" H 8600 6000 50  0001 C CNN "Mouser #"
 F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-1K5?qs=oAGoVhmvjhypP%2FVrWmgF1g%3D%3D" H 8600 6000 50  0001 C CNN "Mouser link"
@@ -97,7 +95,7 @@ U 1 1 609A7FF8
 P 3800 6950
 F 0 "D68" V 3750 7000 50  0000 L CNN
 F 1 "3.6V" V 3850 7000 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" V 3800 6950 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" V 3800 6950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/tzxserie-1767901.pdf" V 3800 6950 50  0001 C CNN
 F 4 "78-TZX3V6A" V 3800 6950 50  0001 C CNN "Mouser #"
 F 5 "https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TZX3V6A-TR?qs=oNDV51lhjENtvfdCBFOJTw%3D%3D" V 3800 6950 50  0001 C CNN "Mouser link"
@@ -110,7 +108,7 @@ U 1 1 609A7444
 P 4000 6500
 F 0 "R6" V 4100 6500 50  0000 C CNN
 F 1 "75" V 4200 6500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4000 6500 50  0001 C CNN
+F 2 "Keyboard:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4000 6500 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf" H 4000 6500 50  0001 C CNN
 F 4 "603-CFR-12JR-52-75R" V 4000 6500 50  0001 C CNN "Mouser #"
 F 5 "https://www.mouser.com/ProductDetail/Yageo/CFR-12JR-52-75R?qs=%2Fha2pyFaduicYmUoDqcqU7D9uIURgJBQFwzWMqews9k%252BJn0PRVolPtydK1XjXZwn" V 4000 6500 50  0001 C CNN "Mouser link"
@@ -123,7 +121,7 @@ U 1 1 609A6E94
 P 3100 6900
 F 0 "R2" V 2904 6900 50  0000 C CNN
 F 1 "5.1k" V 3000 6900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3100 6900 50  0001 C CNN
+F 2 "Keyboard:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3100 6900 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 3100 6900 50  0001 C CNN
 F 4 "603-MFR-12FTF52-5K1" V 3100 6900 50  0001 C CNN "Mouser #"
 F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-5K1?qs=oAGoVhmvjhy1wGcoKYGIuA%3D%3D" V 3100 6900 50  0001 C CNN "Mouser link"
@@ -147,12 +145,12 @@ Wire Wire Line
 	9700 2000 10500 2000
 Connection ~ 9700 2000
 $Comp
-L Device:D D14
+L GanJing_components:1N4148TR_Diode D14
 U 1 1 6090B2E2
 P 9700 1850
 F 0 "D14" V 9700 1771 50  0000 R CNN
 F 1 "D" V 9655 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 9700 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 9700 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 9700 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 9700 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 9700 1850 50  0001 C CNN "Digikey Link"
@@ -163,12 +161,12 @@ Wire Wire Line
 	9300 2000 9700 2000
 Connection ~ 9300 2000
 $Comp
-L Device:D D13
+L GanJing_components:1N4148TR_Diode D13
 U 1 1 6090B182
 P 9300 1850
 F 0 "D13" V 9300 1771 50  0000 R CNN
 F 1 "D" V 9255 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 9300 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 9300 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 9300 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 9300 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 9300 1850 50  0001 C CNN "Digikey Link"
@@ -179,12 +177,12 @@ Wire Wire Line
 	8900 2000 9300 2000
 Connection ~ 8900 2000
 $Comp
-L Device:D D12
+L GanJing_components:1N4148TR_Diode D12
 U 1 1 6090B000
 P 8900 1850
 F 0 "D12" V 8900 1771 50  0000 R CNN
 F 1 "D" V 8855 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8900 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8900 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8900 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8900 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8900 1850 50  0001 C CNN "Digikey Link"
@@ -195,12 +193,12 @@ Wire Wire Line
 	8500 2000 8900 2000
 Connection ~ 8500 2000
 $Comp
-L Device:D D11
+L GanJing_components:1N4148TR_Diode D11
 U 1 1 6090AD6F
 P 8500 1850
 F 0 "D11" V 8500 1771 50  0000 R CNN
 F 1 "D" V 8455 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8500 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8500 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8500 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8500 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8500 1850 50  0001 C CNN "Digikey Link"
@@ -211,12 +209,12 @@ Wire Wire Line
 	8100 2000 8500 2000
 Connection ~ 8100 2000
 $Comp
-L Device:D D10
+L GanJing_components:1N4148TR_Diode D10
 U 1 1 6090AB6D
 P 8100 1850
 F 0 "D10" V 8100 1771 50  0000 R CNN
 F 1 "D" V 8055 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8100 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8100 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8100 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8100 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8100 1850 50  0001 C CNN "Digikey Link"
@@ -227,12 +225,12 @@ Wire Wire Line
 	7700 2000 8100 2000
 Connection ~ 7700 2000
 $Comp
-L Device:D D9
+L GanJing_components:1N4148TR_Diode D9
 U 1 1 6090A71C
 P 7700 1850
 F 0 "D9" V 7700 1771 50  0000 R CNN
 F 1 "D" V 7655 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 7700 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 7700 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 7700 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 7700 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 7700 1850 50  0001 C CNN "Digikey Link"
@@ -240,12 +238,12 @@ F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D15
+L GanJing_components:1N4148TR_Diode D15
 U 1 1 60907839
 P 10500 1850
 F 0 "D15" V 10500 1771 50  0000 R CNN
 F 1 "D" V 10455 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 10500 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 10500 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 10500 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 10500 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 10500 1850 50  0001 C CNN "Digikey Link"
@@ -253,12 +251,12 @@ F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D30
+L GanJing_components:1N4148TR_Diode D30
 U 1 1 6090745D
 P 10500 2600
 F 0 "D30" V 10500 2521 50  0000 R CNN
 F 1 "D" V 10455 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 10500 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 10500 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 10500 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 10500 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 10500 2600 50  0001 C CNN "Digikey Link"
@@ -270,12 +268,12 @@ Wire Wire Line
 	9700 2750 10500 2750
 Connection ~ 9700 2750
 $Comp
-L Device:D D29
+L GanJing_components:1N4148TR_Diode D29
 U 1 1 60907185
 P 9700 2600
 F 0 "D29" V 9700 2521 50  0000 R CNN
 F 1 "D" V 9655 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 9700 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 9700 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 9700 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 9700 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 9700 2600 50  0001 C CNN "Digikey Link"
@@ -286,12 +284,12 @@ Wire Wire Line
 	9300 2750 9700 2750
 Connection ~ 9300 2750
 $Comp
-L Device:D D28
+L GanJing_components:1N4148TR_Diode D28
 U 1 1 60906F45
 P 9300 2600
 F 0 "D28" V 9300 2521 50  0000 R CNN
 F 1 "D" V 9255 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 9300 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 9300 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 9300 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 9300 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 9300 2600 50  0001 C CNN "Digikey Link"
@@ -302,12 +300,12 @@ Wire Wire Line
 	8900 2750 9300 2750
 Connection ~ 8900 2750
 $Comp
-L Device:D D27
+L GanJing_components:1N4148TR_Diode D27
 U 1 1 60906C5C
 P 8900 2600
 F 0 "D27" V 8900 2521 50  0000 R CNN
 F 1 "D" V 8855 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8900 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8900 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8900 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8900 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8900 2600 50  0001 C CNN "Digikey Link"
@@ -318,12 +316,12 @@ Wire Wire Line
 	8500 2750 8900 2750
 Connection ~ 8500 2750
 $Comp
-L Device:D D26
+L GanJing_components:1N4148TR_Diode D26
 U 1 1 60906B26
 P 8500 2600
 F 0 "D26" V 8500 2521 50  0000 R CNN
 F 1 "D" V 8455 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8500 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8500 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8500 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8500 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8500 2600 50  0001 C CNN "Digikey Link"
@@ -334,12 +332,12 @@ Wire Wire Line
 	8100 2750 8500 2750
 Connection ~ 8100 2750
 $Comp
-L Device:D D25
+L GanJing_components:1N4148TR_Diode D25
 U 1 1 609067F2
 P 8100 2600
 F 0 "D25" V 8100 2521 50  0000 R CNN
 F 1 "D" V 8055 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8100 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8100 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8100 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8100 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8100 2600 50  0001 C CNN "Digikey Link"
@@ -350,12 +348,12 @@ Wire Wire Line
 	7700 2750 8100 2750
 Connection ~ 7700 2750
 $Comp
-L Device:D D24
+L GanJing_components:1N4148TR_Diode D24
 U 1 1 60906367
 P 7700 2600
 F 0 "D24" V 7700 2521 50  0000 R CNN
 F 1 "D" V 7655 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 7700 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 7700 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 7700 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 7700 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 7700 2600 50  0001 C CNN "Digikey Link"
@@ -366,12 +364,12 @@ Wire Wire Line
 	7700 3500 8100 3500
 Connection ~ 7700 3500
 $Comp
-L Device:D D39
+L GanJing_components:1N4148TR_Diode D39
 U 1 1 6090609A
 P 7700 3350
 F 0 "D39" V 7700 3271 50  0000 R CNN
 F 1 "D" V 7655 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 7700 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 7700 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 7700 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 7700 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 7700 3350 50  0001 C CNN "Digikey Link"
@@ -382,12 +380,12 @@ Wire Wire Line
 	8100 3500 8500 3500
 Connection ~ 8100 3500
 $Comp
-L Device:D D40
+L GanJing_components:1N4148TR_Diode D40
 U 1 1 60905DCD
 P 8100 3350
 F 0 "D40" V 8100 3271 50  0000 R CNN
 F 1 "D" V 8055 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8100 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8100 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8100 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8100 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8100 3350 50  0001 C CNN "Digikey Link"
@@ -398,12 +396,12 @@ Wire Wire Line
 	8500 3500 8900 3500
 Connection ~ 8500 3500
 $Comp
-L Device:D D41
+L GanJing_components:1N4148TR_Diode D41
 U 1 1 60905B50
 P 8500 3350
 F 0 "D41" V 8500 3271 50  0000 R CNN
 F 1 "D" V 8455 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8500 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8500 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8500 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8500 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8500 3350 50  0001 C CNN "Digikey Link"
@@ -414,12 +412,12 @@ Wire Wire Line
 	8900 3500 9700 3500
 Connection ~ 8900 3500
 $Comp
-L Device:D D42
+L GanJing_components:1N4148TR_Diode D42
 U 1 1 6090547D
 P 8900 3350
 F 0 "D42" V 8900 3271 50  0000 R CNN
 F 1 "D" V 8855 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8900 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8900 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8900 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8900 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8900 3350 50  0001 C CNN "Digikey Link"
@@ -431,12 +429,12 @@ Wire Wire Line
 	9700 3500 10500 3500
 Connection ~ 9700 3500
 $Comp
-L Device:D D43
+L GanJing_components:1N4148TR_Diode D43
 U 1 1 60904CD4
 P 9700 3350
 F 0 "D43" V 9700 3271 50  0000 R CNN
 F 1 "D" V 9655 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 9700 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 9700 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 9700 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 9700 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 9700 3350 50  0001 C CNN "Digikey Link"
@@ -444,12 +442,12 @@ F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D44
+L GanJing_components:1N4148TR_Diode D44
 U 1 1 6090488A
 P 10500 3350
 F 0 "D44" V 10500 3271 50  0000 R CNN
 F 1 "D" V 10455 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 10500 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 10500 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 10500 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 10500 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 10500 3350 50  0001 C CNN "Digikey Link"
@@ -460,12 +458,12 @@ Wire Wire Line
 	8900 5000 9300 5000
 Connection ~ 8900 5000
 $Comp
-L Device:D D63
+L GanJing_components:1N4148TR_Diode D63
 U 1 1 6090455D
 P 8900 4850
 F 0 "D63" V 8900 4771 50  0000 R CNN
 F 1 "D" V 8855 4771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8900 4850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8900 4850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8900 4850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8900 4850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8900 4850 50  0001 C CNN "Digikey Link"
@@ -476,12 +474,12 @@ Wire Wire Line
 	9300 5000 9700 5000
 Connection ~ 9300 5000
 $Comp
-L Device:D D64
+L GanJing_components:1N4148TR_Diode D64
 U 1 1 609042CC
 P 9300 4850
 F 0 "D64" V 9300 4771 50  0000 R CNN
 F 1 "D" V 9255 4771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 9300 4850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 9300 4850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 9300 4850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 9300 4850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 9300 4850 50  0001 C CNN "Digikey Link"
@@ -492,12 +490,12 @@ Wire Wire Line
 	9700 5000 10500 5000
 Connection ~ 9700 5000
 $Comp
-L Device:D D65
+L GanJing_components:1N4148TR_Diode D65
 U 1 1 60903E9F
 P 9700 4850
 F 0 "D65" V 9700 4771 50  0000 R CNN
 F 1 "D" V 9655 4771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 9700 4850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 9700 4850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 9700 4850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 9700 4850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 9700 4850 50  0001 C CNN "Digikey Link"
@@ -505,12 +503,12 @@ F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D58
+L GanJing_components:1N4148TR_Diode D58
 U 1 1 60903C1F
 P 10500 4100
 F 0 "D58" V 10500 4021 50  0000 R CNN
 F 1 "D" V 10455 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 10500 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 10500 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 10500 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 10500 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 10500 4100 50  0001 C CNN "Digikey Link"
@@ -521,12 +519,12 @@ Wire Wire Line
 	9700 4250 10500 4250
 Connection ~ 9700 4250
 $Comp
-L Device:D D57
+L GanJing_components:1N4148TR_Diode D57
 U 1 1 60903A3F
 P 9700 4100
 F 0 "D57" V 9700 4021 50  0000 R CNN
 F 1 "D" V 9655 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 9700 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 9700 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 9700 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 9700 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 9700 4100 50  0001 C CNN "Digikey Link"
@@ -537,12 +535,12 @@ Wire Wire Line
 	9300 4250 9700 4250
 Connection ~ 9300 4250
 $Comp
-L Device:D D56
+L GanJing_components:1N4148TR_Diode D56
 U 1 1 60903945
 P 9300 4100
 F 0 "D56" V 9300 4021 50  0000 R CNN
 F 1 "D" V 9255 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 9300 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 9300 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 9300 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 9300 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 9300 4100 50  0001 C CNN "Digikey Link"
@@ -553,12 +551,12 @@ Wire Wire Line
 	8900 4250 9300 4250
 Connection ~ 8900 4250
 $Comp
-L Device:D D55
+L GanJing_components:1N4148TR_Diode D55
 U 1 1 609036C9
 P 8900 4100
 F 0 "D55" V 8900 4021 50  0000 R CNN
 F 1 "D" V 8855 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8900 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8900 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8900 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8900 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8900 4100 50  0001 C CNN "Digikey Link"
@@ -569,12 +567,12 @@ Wire Wire Line
 	8500 4250 8900 4250
 Connection ~ 8500 4250
 $Comp
-L Device:D D54
+L GanJing_components:1N4148TR_Diode D54
 U 1 1 60903540
 P 8500 4100
 F 0 "D54" V 8500 4021 50  0000 R CNN
 F 1 "D" V 8455 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8500 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8500 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8500 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8500 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8500 4100 50  0001 C CNN "Digikey Link"
@@ -585,12 +583,12 @@ Wire Wire Line
 	8100 4250 8500 4250
 Connection ~ 8100 4250
 $Comp
-L Device:D D53
+L GanJing_components:1N4148TR_Diode D53
 U 1 1 6090323E
 P 8100 4100
 F 0 "D53" V 8100 4021 50  0000 R CNN
 F 1 "D" V 8055 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 8100 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 8100 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 8100 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 8100 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 8100 4100 50  0001 C CNN "Digikey Link"
@@ -601,12 +599,12 @@ Wire Wire Line
 	7700 4250 8100 4250
 Connection ~ 7700 4250
 $Comp
-L Device:D D52
+L GanJing_components:1N4148TR_Diode D52
 U 1 1 60902F47
 P 7700 4100
 F 0 "D52" V 7700 4021 50  0000 R CNN
 F 1 "D" V 7655 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 7700 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 7700 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 7700 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 7700 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 7700 4100 50  0001 C CNN "Digikey Link"
@@ -622,12 +620,12 @@ Wire Wire Line
 	6900 5000 8900 5000
 Connection ~ 6900 5000
 $Comp
-L Device:D D62
+L GanJing_components:1N4148TR_Diode D62
 U 1 1 6090282B
 P 6900 4850
 F 0 "D62" V 6900 4771 50  0000 R CNN
 F 1 "D" V 6855 4771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6900 4850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6900 4850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6900 4850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6900 4850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6900 4850 50  0001 C CNN "Digikey Link"
@@ -638,12 +636,12 @@ Wire Wire Line
 	5300 5000 6900 5000
 Connection ~ 5300 5000
 $Comp
-L Device:D D61
+L GanJing_components:1N4148TR_Diode D61
 U 1 1 609024D7
 P 5300 4850
 F 0 "D61" V 5300 4771 50  0000 R CNN
 F 1 "D" V 5255 4771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 5300 4850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 5300 4850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 5300 4850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 5300 4850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 5300 4850 50  0001 C CNN "Digikey Link"
@@ -655,12 +653,12 @@ Wire Wire Line
 	4900 5000 5300 5000
 Connection ~ 4900 5000
 $Comp
-L Device:D D60
+L GanJing_components:1N4148TR_Diode D60
 U 1 1 609021CE
 P 4900 4850
 F 0 "D60" V 4900 4771 50  0000 R CNN
 F 1 "D" V 4855 4771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 4900 4850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 4900 4850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 4900 4850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 4900 4850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 4900 4850 50  0001 C CNN "Digikey Link"
@@ -668,12 +666,12 @@ F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D59
+L GanJing_components:1N4148TR_Diode D59
 U 1 1 60901E24
 P 4500 4850
 F 0 "D59" V 4500 4771 50  0000 R CNN
 F 1 "D" V 4455 4771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 4500 4850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 4500 4850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 4500 4850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 4500 4850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 4500 4850 50  0001 C CNN "Digikey Link"
@@ -685,12 +683,12 @@ Wire Wire Line
 	4500 4250 4900 4250
 Connection ~ 4500 4250
 $Comp
-L Device:D D45
+L GanJing_components:1N4148TR_Diode D45
 U 1 1 60901A49
 P 4500 4100
 F 0 "D45" V 4500 4021 50  0000 R CNN
 F 1 "D" V 4455 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 4500 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 4500 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 4500 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 4500 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 4500 4100 50  0001 C CNN "Digikey Link"
@@ -701,12 +699,12 @@ Wire Wire Line
 	5300 4250 5700 4250
 Connection ~ 5300 4250
 $Comp
-L Device:D D46
+L GanJing_components:1N4148TR_Diode D46
 U 1 1 609017BF
 P 5300 4100
 F 0 "D46" V 5300 4021 50  0000 R CNN
 F 1 "D" V 5255 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 5300 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 5300 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 5300 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 5300 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 5300 4100 50  0001 C CNN "Digikey Link"
@@ -717,12 +715,12 @@ Wire Wire Line
 	5700 4250 6100 4250
 Connection ~ 5700 4250
 $Comp
-L Device:D D47
+L GanJing_components:1N4148TR_Diode D47
 U 1 1 609015EC
 P 5700 4100
 F 0 "D47" V 5700 4021 50  0000 R CNN
 F 1 "D" V 5655 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 5700 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 5700 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 5700 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 5700 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 5700 4100 50  0001 C CNN "Digikey Link"
@@ -733,12 +731,12 @@ Wire Wire Line
 	6100 4250 6500 4250
 Connection ~ 6100 4250
 $Comp
-L Device:D D48
+L GanJing_components:1N4148TR_Diode D48
 U 1 1 609010E0
 P 6100 4100
 F 0 "D48" V 6100 4021 50  0000 R CNN
 F 1 "D" V 6055 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6100 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6100 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6100 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6100 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6100 4100 50  0001 C CNN "Digikey Link"
@@ -749,12 +747,12 @@ Wire Wire Line
 	6500 4250 6900 4250
 Connection ~ 6500 4250
 $Comp
-L Device:D D49
+L GanJing_components:1N4148TR_Diode D49
 U 1 1 60900D7D
 P 6500 4100
 F 0 "D49" V 6500 4021 50  0000 R CNN
 F 1 "D" V 6455 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6500 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6500 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6500 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6500 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6500 4100 50  0001 C CNN "Digikey Link"
@@ -765,12 +763,12 @@ Wire Wire Line
 	6900 4250 7300 4250
 Connection ~ 6900 4250
 $Comp
-L Device:D D50
+L GanJing_components:1N4148TR_Diode D50
 U 1 1 60900ACA
 P 6900 4100
 F 0 "D50" V 6900 4021 50  0000 R CNN
 F 1 "D" V 6855 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6900 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6900 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6900 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6900 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6900 4100 50  0001 C CNN "Digikey Link"
@@ -781,12 +779,12 @@ Wire Wire Line
 	7300 4250 7700 4250
 Connection ~ 7300 4250
 $Comp
-L Device:D D51
+L GanJing_components:1N4148TR_Diode D51
 U 1 1 6090066B
 P 7300 4100
 F 0 "D51" V 7300 4021 50  0000 R CNN
 F 1 "D" V 7255 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 7300 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 7300 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 7300 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 7300 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 7300 4100 50  0001 C CNN "Digikey Link"
@@ -797,12 +795,12 @@ Wire Wire Line
 	7300 3500 7700 3500
 Connection ~ 7300 3500
 $Comp
-L Device:D D38
+L GanJing_components:1N4148TR_Diode D38
 U 1 1 6090048B
 P 7300 3350
 F 0 "D38" V 7300 3271 50  0000 R CNN
 F 1 "D" V 7255 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 7300 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 7300 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 7300 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 7300 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 7300 3350 50  0001 C CNN "Digikey Link"
@@ -813,12 +811,12 @@ Wire Wire Line
 	6900 3500 7300 3500
 Connection ~ 6900 3500
 $Comp
-L Device:D D37
+L GanJing_components:1N4148TR_Diode D37
 U 1 1 609000CA
 P 6900 3350
 F 0 "D37" V 6900 3271 50  0000 R CNN
 F 1 "D" V 6855 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6900 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6900 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6900 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6900 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6900 3350 50  0001 C CNN "Digikey Link"
@@ -829,12 +827,12 @@ Wire Wire Line
 	6500 3500 6900 3500
 Connection ~ 6500 3500
 $Comp
-L Device:D D36
+L GanJing_components:1N4148TR_Diode D36
 U 1 1 608FFEF8
 P 6500 3350
 F 0 "D36" V 6500 3271 50  0000 R CNN
 F 1 "D" V 6455 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6500 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6500 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6500 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6500 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6500 3350 50  0001 C CNN "Digikey Link"
@@ -845,12 +843,12 @@ Wire Wire Line
 	6100 3500 6500 3500
 Connection ~ 6100 3500
 $Comp
-L Device:D D35
+L GanJing_components:1N4148TR_Diode D35
 U 1 1 608FFCAD
 P 6100 3350
 F 0 "D35" V 6100 3271 50  0000 R CNN
 F 1 "D" V 6055 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6100 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6100 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6100 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6100 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6100 3350 50  0001 C CNN "Digikey Link"
@@ -861,12 +859,12 @@ Wire Wire Line
 	5700 3500 6100 3500
 Connection ~ 5700 3500
 $Comp
-L Device:D D34
+L GanJing_components:1N4148TR_Diode D34
 U 1 1 608FF8D9
 P 5700 3350
 F 0 "D34" V 5700 3271 50  0000 R CNN
 F 1 "D" V 5655 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 5700 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 5700 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 5700 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 5700 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 5700 3350 50  0001 C CNN "Digikey Link"
@@ -877,12 +875,12 @@ Wire Wire Line
 	5300 3500 5700 3500
 Connection ~ 5300 3500
 $Comp
-L Device:D D33
+L GanJing_components:1N4148TR_Diode D33
 U 1 1 608FF5B3
 P 5300 3350
 F 0 "D33" V 5300 3271 50  0000 R CNN
 F 1 "D" V 5255 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 5300 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 5300 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 5300 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 5300 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 5300 3350 50  0001 C CNN "Digikey Link"
@@ -893,12 +891,12 @@ Wire Wire Line
 	4900 3500 5300 3500
 Connection ~ 4900 3500
 $Comp
-L Device:D D32
+L GanJing_components:1N4148TR_Diode D32
 U 1 1 608FF28C
 P 4900 3350
 F 0 "D32" V 4900 3271 50  0000 R CNN
 F 1 "D" V 4855 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 4900 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 4900 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 4900 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 4900 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 4900 3350 50  0001 C CNN "Digikey Link"
@@ -910,12 +908,12 @@ Wire Wire Line
 	4500 3500 4900 3500
 Connection ~ 4500 3500
 $Comp
-L Device:D D31
+L GanJing_components:1N4148TR_Diode D31
 U 1 1 608FED6B
 P 4500 3350
 F 0 "D31" V 4500 3271 50  0000 R CNN
 F 1 "D" V 4455 3271 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 4500 3350 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 4500 3350 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 4500 3350 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 4500 3350 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 4500 3350 50  0001 C CNN "Digikey Link"
@@ -926,12 +924,12 @@ Wire Wire Line
 	4500 2750 4900 2750
 Connection ~ 4500 2750
 $Comp
-L Device:D D16
+L GanJing_components:1N4148TR_Diode D16
 U 1 1 608FE92A
 P 4500 2600
 F 0 "D16" V 4500 2521 50  0000 R CNN
 F 1 "D" V 4455 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 4500 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 4500 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 4500 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 4500 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 4500 2600 50  0001 C CNN "Digikey Link"
@@ -942,12 +940,12 @@ Wire Wire Line
 	4900 2750 5300 2750
 Connection ~ 4900 2750
 $Comp
-L Device:D D17
+L GanJing_components:1N4148TR_Diode D17
 U 1 1 608FE664
 P 4900 2600
 F 0 "D17" V 4900 2521 50  0000 R CNN
 F 1 "D" V 4855 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 4900 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 4900 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 4900 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 4900 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 4900 2600 50  0001 C CNN "Digikey Link"
@@ -958,12 +956,12 @@ Wire Wire Line
 	5300 2750 5700 2750
 Connection ~ 5300 2750
 $Comp
-L Device:D D18
+L GanJing_components:1N4148TR_Diode D18
 U 1 1 608FE274
 P 5300 2600
 F 0 "D18" V 5300 2521 50  0000 R CNN
 F 1 "D" V 5255 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 5300 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 5300 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 5300 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 5300 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 5300 2600 50  0001 C CNN "Digikey Link"
@@ -974,12 +972,12 @@ Wire Wire Line
 	5700 2750 6100 2750
 Connection ~ 5700 2750
 $Comp
-L Device:D D19
+L GanJing_components:1N4148TR_Diode D19
 U 1 1 608FDF6A
 P 5700 2600
 F 0 "D19" V 5700 2521 50  0000 R CNN
 F 1 "D" V 5655 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 5700 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 5700 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 5700 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 5700 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 5700 2600 50  0001 C CNN "Digikey Link"
@@ -990,12 +988,12 @@ Wire Wire Line
 	6100 2750 6500 2750
 Connection ~ 6100 2750
 $Comp
-L Device:D D20
+L GanJing_components:1N4148TR_Diode D20
 U 1 1 608FDCA4
 P 6100 2600
 F 0 "D20" V 6100 2521 50  0000 R CNN
 F 1 "D" V 6055 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6100 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6100 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6100 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6100 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6100 2600 50  0001 C CNN "Digikey Link"
@@ -1006,12 +1004,12 @@ Wire Wire Line
 	6500 2750 6900 2750
 Connection ~ 6500 2750
 $Comp
-L Device:D D21
+L GanJing_components:1N4148TR_Diode D21
 U 1 1 608FD96A
 P 6500 2600
 F 0 "D21" V 6500 2521 50  0000 R CNN
 F 1 "D" V 6455 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6500 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6500 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6500 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6500 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6500 2600 50  0001 C CNN "Digikey Link"
@@ -1022,12 +1020,12 @@ Wire Wire Line
 	6900 2750 7300 2750
 Connection ~ 6900 2750
 $Comp
-L Device:D D22
+L GanJing_components:1N4148TR_Diode D22
 U 1 1 608FD61B
 P 6900 2600
 F 0 "D22" V 6900 2521 50  0000 R CNN
 F 1 "D" V 6855 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6900 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6900 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6900 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6900 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6900 2600 50  0001 C CNN "Digikey Link"
@@ -1038,12 +1036,12 @@ Wire Wire Line
 	7300 2750 7700 2750
 Connection ~ 7300 2750
 $Comp
-L Device:D D23
+L GanJing_components:1N4148TR_Diode D23
 U 1 1 608FCDA0
 P 7300 2600
 F 0 "D23" V 7300 2521 50  0000 R CNN
 F 1 "D" V 7255 2521 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 7300 2600 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 7300 2600 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 7300 2600 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 7300 2600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 7300 2600 50  0001 C CNN "Digikey Link"
@@ -1054,12 +1052,12 @@ Wire Wire Line
 	7300 2000 7700 2000
 Connection ~ 7300 2000
 $Comp
-L Device:D D8
+L GanJing_components:1N4148TR_Diode D8
 U 1 1 608FCAAB
 P 7300 1850
 F 0 "D8" V 7300 1771 50  0000 R CNN
 F 1 "D" V 7255 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 7300 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 7300 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 7300 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 7300 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 7300 1850 50  0001 C CNN "Digikey Link"
@@ -1070,12 +1068,12 @@ Wire Wire Line
 	6900 2000 7300 2000
 Connection ~ 6900 2000
 $Comp
-L Device:D D7
+L GanJing_components:1N4148TR_Diode D7
 U 1 1 608FC836
 P 6900 1850
 F 0 "D7" V 6900 1771 50  0000 R CNN
 F 1 "D" V 6855 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6900 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6900 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6900 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6900 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6900 1850 50  0001 C CNN "Digikey Link"
@@ -1086,12 +1084,12 @@ Wire Wire Line
 	6500 2000 6900 2000
 Connection ~ 6500 2000
 $Comp
-L Device:D D6
+L GanJing_components:1N4148TR_Diode D6
 U 1 1 608FC51D
 P 6500 1850
 F 0 "D6" V 6500 1771 50  0000 R CNN
 F 1 "D" V 6455 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6500 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6500 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6500 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6500 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6500 1850 50  0001 C CNN "Digikey Link"
@@ -1102,12 +1100,12 @@ Wire Wire Line
 	6100 2000 6500 2000
 Connection ~ 6100 2000
 $Comp
-L Device:D D5
+L GanJing_components:1N4148TR_Diode D5
 U 1 1 608FC1F8
 P 6100 1850
 F 0 "D5" V 6100 1771 50  0000 R CNN
 F 1 "D" V 6055 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 6100 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 6100 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 6100 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 6100 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 6100 1850 50  0001 C CNN "Digikey Link"
@@ -1118,12 +1116,12 @@ Wire Wire Line
 	5700 2000 6100 2000
 Connection ~ 5700 2000
 $Comp
-L Device:D D4
+L GanJing_components:1N4148TR_Diode D4
 U 1 1 608FC026
 P 5700 1850
 F 0 "D4" V 5700 1771 50  0000 R CNN
 F 1 "D" V 5655 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 5700 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 5700 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 5700 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 5700 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 5700 1850 50  0001 C CNN "Digikey Link"
@@ -1134,12 +1132,12 @@ Wire Wire Line
 	5300 2000 5700 2000
 Connection ~ 5300 2000
 $Comp
-L Device:D D3
+L GanJing_components:1N4148TR_Diode D3
 U 1 1 608FBD34
 P 5300 1850
 F 0 "D3" V 5300 1771 50  0000 R CNN
 F 1 "D" V 5255 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 5300 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 5300 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 5300 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 5300 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 5300 1850 50  0001 C CNN "Digikey Link"
@@ -1150,12 +1148,12 @@ Wire Wire Line
 	4900 2000 5300 2000
 Connection ~ 4900 2000
 $Comp
-L Device:D D2
+L GanJing_components:1N4148TR_Diode D2
 U 1 1 608FB9D0
 P 4900 1850
 F 0 "D2" V 4900 1771 50  0000 R CNN
 F 1 "D" V 4855 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 4900 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 4900 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 4900 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 4900 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 4900 1850 50  0001 C CNN "Digikey Link"
@@ -1166,12 +1164,12 @@ Wire Wire Line
 	4900 4250 5300 4250
 Connection ~ 4900 4250
 $Comp
-L Device:D D67
+L GanJing_components:1N4148TR_Diode D67
 U 1 1 608FB0E3
 P 4900 4100
 F 0 "D67" V 4900 4021 50  0000 R CNN
 F 1 "D" V 4855 4021 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 4900 4100 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 4900 4100 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 4900 4100 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 4900 4100 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 4900 4100 50  0001 C CNN "Digikey Link"
@@ -1179,12 +1177,12 @@ F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D66
+L GanJing_components:1N4148TR_Diode D66
 U 1 1 608FAB34
 P 10500 4850
 F 0 "D66" V 10500 4771 50  0000 R CNN
 F 1 "D" V 10455 4771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 10500 4850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 10500 4850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 10500 4850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 10500 4850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 10500 4850 50  0001 C CNN "Digikey Link"
@@ -1224,7 +1222,7 @@ F 3 "" H 1950 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch SW1
+L GanJing_components:EC11_Rotory_Encoder SW1
 U 1 1 5F615A6D
 P 1300 7150
 F 0 "SW1" H 1300 7517 50  0000 C CNN
@@ -1241,7 +1239,7 @@ SW15A
 Text GLabel 1000 7250 0    50   Input ~ 0
 SW15B
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX1
+L GanJing_components:Cherry_MX_No_LED MX1
 U 1 1 5F6443C2
 P 4550 1550
 F 0 "MX1" H 4583 1773 60  0000 C CNN
@@ -1252,7 +1250,7 @@ F 3 "" H 3925 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX2
+L GanJing_components:Cherry_MX_No_LED MX2
 U 1 1 5F645376
 P 4950 1550
 F 0 "MX2" H 4983 1773 60  0000 C CNN
@@ -1263,7 +1261,7 @@ F 3 "" H 4325 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX3
+L GanJing_components:Cherry_MX_No_LED MX3
 U 1 1 5F645CA0
 P 5350 1550
 F 0 "MX3" H 5383 1773 60  0000 C CNN
@@ -1274,7 +1272,7 @@ F 3 "" H 4725 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX5
+L GanJing_components:Cherry_MX_No_LED MX5
 U 1 1 5F646886
 P 6150 1550
 F 0 "MX5" H 6183 1773 60  0000 C CNN
@@ -1285,7 +1283,7 @@ F 3 "" H 5525 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX4
+L GanJing_components:Cherry_MX_No_LED MX4
 U 1 1 5F6462E5
 P 5750 1550
 F 0 "MX4" H 5783 1773 60  0000 C CNN
@@ -1296,7 +1294,7 @@ F 3 "" H 5125 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX6
+L GanJing_components:Cherry_MX_No_LED MX6
 U 1 1 5F6516D8
 P 6550 1550
 F 0 "MX6" H 6583 1773 60  0000 C CNN
@@ -1307,7 +1305,7 @@ F 3 "" H 5925 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX7
+L GanJing_components:Cherry_MX_No_LED MX7
 U 1 1 5F6516DE
 P 6950 1550
 F 0 "MX7" H 6983 1773 60  0000 C CNN
@@ -1318,7 +1316,7 @@ F 3 "" H 6325 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX8
+L GanJing_components:Cherry_MX_No_LED MX8
 U 1 1 5F6516E4
 P 7350 1550
 F 0 "MX8" H 7383 1773 60  0000 C CNN
@@ -1329,7 +1327,7 @@ F 3 "" H 6725 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX10
+L GanJing_components:Cherry_MX_No_LED MX10
 U 1 1 5F6516EA
 P 8150 1550
 F 0 "MX10" H 8183 1773 60  0000 C CNN
@@ -1340,7 +1338,7 @@ F 3 "" H 7525 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX9
+L GanJing_components:Cherry_MX_No_LED MX9
 U 1 1 5F6516F0
 P 7750 1550
 F 0 "MX9" H 7783 1773 60  0000 C CNN
@@ -1351,7 +1349,7 @@ F 3 "" H 7125 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX11
+L GanJing_components:Cherry_MX_No_LED MX11
 U 1 1 5F655E2C
 P 8550 1550
 F 0 "MX11" H 8583 1773 60  0000 C CNN
@@ -1362,7 +1360,7 @@ F 3 "" H 7925 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX12
+L GanJing_components:Cherry_MX_No_LED MX12
 U 1 1 5F655E32
 P 8950 1550
 F 0 "MX12" H 8983 1773 60  0000 C CNN
@@ -1373,7 +1371,7 @@ F 3 "" H 8325 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX13
+L GanJing_components:Cherry_MX_No_LED MX13
 U 1 1 5F655E38
 P 9350 1550
 F 0 "MX13" H 9383 1773 60  0000 C CNN
@@ -1384,7 +1382,7 @@ F 3 "" H 8725 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX14
+L GanJing_components:Cherry_MX_No_LED MX14
 U 1 1 5F655E44
 P 9750 1550
 F 0 "MX14" H 9783 1773 60  0000 C CNN
@@ -1395,7 +1393,7 @@ F 3 "" H 9125 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX16
+L GanJing_components:Cherry_MX_No_LED MX16
 U 1 1 5F688E7A
 P 4550 2300
 F 0 "MX16" H 4583 2523 60  0000 C CNN
@@ -1406,7 +1404,7 @@ F 3 "" H 3925 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX17
+L GanJing_components:Cherry_MX_No_LED MX17
 U 1 1 5F688E80
 P 4950 2300
 F 0 "MX17" H 4983 2523 60  0000 C CNN
@@ -1417,7 +1415,7 @@ F 3 "" H 4325 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX18
+L GanJing_components:Cherry_MX_No_LED MX18
 U 1 1 5F688E86
 P 5350 2300
 F 0 "MX18" H 5383 2523 60  0000 C CNN
@@ -1428,7 +1426,7 @@ F 3 "" H 4725 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX20
+L GanJing_components:Cherry_MX_No_LED MX20
 U 1 1 5F688E8C
 P 6150 2300
 F 0 "MX20" H 6183 2523 60  0000 C CNN
@@ -1439,7 +1437,7 @@ F 3 "" H 5525 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX19
+L GanJing_components:Cherry_MX_No_LED MX19
 U 1 1 5F688E92
 P 5750 2300
 F 0 "MX19" H 5783 2523 60  0000 C CNN
@@ -1450,7 +1448,7 @@ F 3 "" H 5125 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX21
+L GanJing_components:Cherry_MX_No_LED MX21
 U 1 1 5F688E98
 P 6550 2300
 F 0 "MX21" H 6583 2523 60  0000 C CNN
@@ -1461,7 +1459,7 @@ F 3 "" H 5925 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX22
+L GanJing_components:Cherry_MX_No_LED MX22
 U 1 1 5F688E9E
 P 6950 2300
 F 0 "MX22" H 6983 2523 60  0000 C CNN
@@ -1472,7 +1470,7 @@ F 3 "" H 6325 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX23
+L GanJing_components:Cherry_MX_No_LED MX23
 U 1 1 5F688EA4
 P 7350 2300
 F 0 "MX23" H 7383 2523 60  0000 C CNN
@@ -1483,7 +1481,7 @@ F 3 "" H 6725 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX25
+L GanJing_components:Cherry_MX_No_LED MX25
 U 1 1 5F688EAA
 P 8150 2300
 F 0 "MX25" H 8183 2523 60  0000 C CNN
@@ -1494,7 +1492,7 @@ F 3 "" H 7525 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX24
+L GanJing_components:Cherry_MX_No_LED MX24
 U 1 1 5F688EB0
 P 7750 2300
 F 0 "MX24" H 7783 2523 60  0000 C CNN
@@ -1505,7 +1503,7 @@ F 3 "" H 7125 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX26
+L GanJing_components:Cherry_MX_No_LED MX26
 U 1 1 5F688EB6
 P 8550 2300
 F 0 "MX26" H 8583 2523 60  0000 C CNN
@@ -1516,7 +1514,7 @@ F 3 "" H 7925 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX27
+L GanJing_components:Cherry_MX_No_LED MX27
 U 1 1 5F688EBC
 P 8950 2300
 F 0 "MX27" H 8983 2523 60  0000 C CNN
@@ -1527,7 +1525,7 @@ F 3 "" H 8325 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX28
+L GanJing_components:Cherry_MX_No_LED MX28
 U 1 1 5F688EC2
 P 9350 2300
 F 0 "MX28" H 9383 2523 60  0000 C CNN
@@ -1538,7 +1536,7 @@ F 3 "" H 8725 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX29
+L GanJing_components:Cherry_MX_No_LED MX29
 U 1 1 5F688ECE
 P 9750 2300
 F 0 "MX29" H 9783 2523 60  0000 C CNN
@@ -1549,7 +1547,7 @@ F 3 "" H 9125 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX31
+L GanJing_components:Cherry_MX_No_LED MX31
 U 1 1 5F691AD8
 P 4550 3050
 F 0 "MX31" H 4583 3273 60  0000 C CNN
@@ -1560,7 +1558,7 @@ F 3 "" H 3925 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX32
+L GanJing_components:Cherry_MX_No_LED MX32
 U 1 1 5F691ADE
 P 4950 3050
 F 0 "MX32" H 4983 3273 60  0000 C CNN
@@ -1571,7 +1569,7 @@ F 3 "" H 4325 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX33
+L GanJing_components:Cherry_MX_No_LED MX33
 U 1 1 5F691AE4
 P 5350 3050
 F 0 "MX33" H 5383 3273 60  0000 C CNN
@@ -1582,7 +1580,7 @@ F 3 "" H 4725 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX35
+L GanJing_components:Cherry_MX_No_LED MX35
 U 1 1 5F691AEA
 P 6150 3050
 F 0 "MX35" H 6183 3273 60  0000 C CNN
@@ -1593,7 +1591,7 @@ F 3 "" H 5525 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX34
+L GanJing_components:Cherry_MX_No_LED MX34
 U 1 1 5F691AF0
 P 5750 3050
 F 0 "MX34" H 5783 3273 60  0000 C CNN
@@ -1604,7 +1602,7 @@ F 3 "" H 5125 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX36
+L GanJing_components:Cherry_MX_No_LED MX36
 U 1 1 5F691AF6
 P 6550 3050
 F 0 "MX36" H 6583 3273 60  0000 C CNN
@@ -1615,7 +1613,7 @@ F 3 "" H 5925 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX37
+L GanJing_components:Cherry_MX_No_LED MX37
 U 1 1 5F691AFC
 P 6950 3050
 F 0 "MX37" H 6983 3273 60  0000 C CNN
@@ -1626,7 +1624,7 @@ F 3 "" H 6325 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX38
+L GanJing_components:Cherry_MX_No_LED MX38
 U 1 1 5F691B02
 P 7350 3050
 F 0 "MX38" H 7383 3273 60  0000 C CNN
@@ -1637,7 +1635,7 @@ F 3 "" H 6725 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX40
+L GanJing_components:Cherry_MX_No_LED MX40
 U 1 1 5F691B08
 P 8150 3050
 F 0 "MX40" H 8183 3273 60  0000 C CNN
@@ -1648,7 +1646,7 @@ F 3 "" H 7525 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX39
+L GanJing_components:Cherry_MX_No_LED MX39
 U 1 1 5F691B0E
 P 7750 3050
 F 0 "MX39" H 7783 3273 60  0000 C CNN
@@ -1659,7 +1657,7 @@ F 3 "" H 7125 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX41
+L GanJing_components:Cherry_MX_No_LED MX41
 U 1 1 5F691B14
 P 8550 3050
 F 0 "MX41" H 8583 3273 60  0000 C CNN
@@ -1670,7 +1668,7 @@ F 3 "" H 7925 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX42
+L GanJing_components:Cherry_MX_No_LED MX42
 U 1 1 5F691B1A
 P 8950 3050
 F 0 "MX42" H 8983 3273 60  0000 C CNN
@@ -1681,7 +1679,7 @@ F 3 "" H 8325 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX43
+L GanJing_components:Cherry_MX_No_LED MX43
 U 1 1 5F691B20
 P 9750 3050
 F 0 "MX43" H 9783 3273 60  0000 C CNN
@@ -1692,18 +1690,18 @@ F 3 "" H 9125 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX68
+L GanJing_components:Cherry_MX_No_LED MX68
 U 1 1 5F691B2C
 P 10150 2300
 F 0 "MX68" H 10183 2523 60  0000 C CNN
 F 1 "ISO Enter" H 10183 2449 20  0000 C CNN
-F 2 "MX_Only:MXOnly-ISO_NoLED" H 9525 2275 60  0001 C CNN
+F 2 "MX_Only:MXOnly-ISO-ReversedStabilizers-NoLED" H 9525 2275 60  0001 C CNN
 F 3 "" H 9525 2275 60  0001 C CNN
 	1    10150 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX45
+L GanJing_components:Cherry_MX_No_LED MX45
 U 1 1 5F69B0E2
 P 4550 3800
 F 0 "MX45" H 4583 4023 60  0000 C CNN
@@ -1714,7 +1712,7 @@ F 3 "" H 3925 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX67
+L GanJing_components:Cherry_MX_No_LED MX67
 U 1 1 5F69B0E8
 P 4950 3800
 F 0 "MX67" H 4983 4023 60  0000 C CNN
@@ -1725,7 +1723,7 @@ F 3 "" H 4325 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX46
+L GanJing_components:Cherry_MX_No_LED MX46
 U 1 1 5F69B0EE
 P 5350 3800
 F 0 "MX46" H 5383 4023 60  0000 C CNN
@@ -1736,7 +1734,7 @@ F 3 "" H 4725 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX48
+L GanJing_components:Cherry_MX_No_LED MX48
 U 1 1 5F69B0F4
 P 6150 3800
 F 0 "MX48" H 6183 4023 60  0000 C CNN
@@ -1747,7 +1745,7 @@ F 3 "" H 5525 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX47
+L GanJing_components:Cherry_MX_No_LED MX47
 U 1 1 5F69B0FA
 P 5750 3800
 F 0 "MX47" H 5783 4023 60  0000 C CNN
@@ -1758,7 +1756,7 @@ F 3 "" H 5125 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX49
+L GanJing_components:Cherry_MX_No_LED MX49
 U 1 1 5F69B100
 P 6550 3800
 F 0 "MX49" H 6583 4023 60  0000 C CNN
@@ -1769,7 +1767,7 @@ F 3 "" H 5925 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX50
+L GanJing_components:Cherry_MX_No_LED MX50
 U 1 1 5F69B106
 P 6950 3800
 F 0 "MX50" H 6983 4023 60  0000 C CNN
@@ -1780,7 +1778,7 @@ F 3 "" H 6325 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX51
+L GanJing_components:Cherry_MX_No_LED MX51
 U 1 1 5F69B10C
 P 7350 3800
 F 0 "MX51" H 7383 4023 60  0000 C CNN
@@ -1791,7 +1789,7 @@ F 3 "" H 6725 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX53
+L GanJing_components:Cherry_MX_No_LED MX53
 U 1 1 5F69B112
 P 8150 3800
 F 0 "MX53" H 8183 4023 60  0000 C CNN
@@ -1802,7 +1800,7 @@ F 3 "" H 7525 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX52
+L GanJing_components:Cherry_MX_No_LED MX52
 U 1 1 5F69B118
 P 7750 3800
 F 0 "MX52" H 7783 4023 60  0000 C CNN
@@ -1813,7 +1811,7 @@ F 3 "" H 7125 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX54
+L GanJing_components:Cherry_MX_No_LED MX54
 U 1 1 5F69B11E
 P 8550 3800
 F 0 "MX54" H 8583 4023 60  0000 C CNN
@@ -1824,7 +1822,7 @@ F 3 "" H 7925 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX55
+L GanJing_components:Cherry_MX_No_LED MX55
 U 1 1 5F69B124
 P 8950 3800
 F 0 "MX55" H 8983 4023 60  0000 C CNN
@@ -1835,7 +1833,7 @@ F 3 "" H 8325 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX56
+L GanJing_components:Cherry_MX_No_LED MX56
 U 1 1 5F69B12A
 P 9350 3800
 F 0 "MX56" H 9383 4023 60  0000 C CNN
@@ -1846,7 +1844,7 @@ F 3 "" H 8725 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX57
+L GanJing_components:Cherry_MX_No_LED MX57
 U 1 1 5F69B136
 P 9750 3800
 F 0 "MX57" H 9783 4023 60  0000 C CNN
@@ -1857,7 +1855,7 @@ F 3 "" H 9125 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX59
+L GanJing_components:Cherry_MX_No_LED MX59
 U 1 1 5F6A4698
 P 4550 4550
 F 0 "MX59" H 4583 4773 60  0000 C CNN
@@ -1868,7 +1866,7 @@ F 3 "" H 3925 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX60
+L GanJing_components:Cherry_MX_No_LED MX60
 U 1 1 5F6A469E
 P 4950 4550
 F 0 "MX60" H 4983 4773 60  0000 C CNN
@@ -1879,7 +1877,7 @@ F 3 "" H 4325 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX61
+L GanJing_components:Cherry_MX_No_LED MX61
 U 1 1 5F6A46A4
 P 5350 4550
 F 0 "MX61" H 5383 4773 60  0000 C CNN
@@ -1890,18 +1888,18 @@ F 3 "" H 4725 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX62
+L GanJing_components:Cherry_MX_No_LED MX62
 U 1 1 5F6A46BC
 P 6950 4550
 F 0 "MX62" H 6983 4773 60  0000 C CNN
 F 1 "Space" H 6983 4699 20  0000 C CNN
-F 2 "MX_Only:MXOnly-6.25U-NoLED" H 6325 4525 60  0001 C CNN
+F 2 "MX_Only:MXOnly-6.25U-ReversedStabilizers-NoLED" H 6325 4525 60  0001 C CNN
 F 3 "" H 6325 4525 60  0001 C CNN
 	1    6950 4550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX63
+L GanJing_components:Cherry_MX_No_LED MX63
 U 1 1 5F6A46DA
 P 8950 4550
 F 0 "MX63" H 8983 4773 60  0000 C CNN
@@ -1912,7 +1910,7 @@ F 3 "" H 8325 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX64
+L GanJing_components:Cherry_MX_No_LED MX64
 U 1 1 5F6A46E0
 P 9350 4550
 F 0 "MX64" H 9383 4773 60  0000 C CNN
@@ -1923,7 +1921,7 @@ F 3 "" H 8725 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX65
+L GanJing_components:Cherry_MX_No_LED MX65
 U 1 1 5F6A46EC
 P 9750 4550
 F 0 "MX65" H 9783 4773 60  0000 C CNN
@@ -1936,7 +1934,7 @@ $EndComp
 Text Notes 6700 800  0    157  ~ 31
 Keyboard layout
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX69
+L GanJing_components:Cherry_MX_No_LED MX69
 U 1 1 5F746B17
 P 4150 3050
 F 0 "MX69" H 4183 3273 60  0000 C CNN
@@ -1947,7 +1945,7 @@ F 3 "" H 3525 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX71
+L GanJing_components:Cherry_MX_No_LED MX71
 U 1 1 5F747090
 P 4150 3800
 F 0 "MX71" H 4183 4023 60  0000 C CNN
@@ -1958,7 +1956,7 @@ F 3 "" H 3525 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX72
+L GanJing_components:Cherry_MX_No_LED MX72
 U 1 1 5F7478A6
 P 4550 5300
 F 0 "MX72" H 4583 5523 60  0000 C CNN
@@ -1969,7 +1967,7 @@ F 3 "" H 3925 5275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX73
+L GanJing_components:Cherry_MX_No_LED MX73
 U 1 1 5F748108
 P 4950 5300
 F 0 "MX73" H 4983 5523 60  0000 C CNN
@@ -1984,7 +1982,7 @@ SW15B
 Text GLabel 10700 1500 0    31   Input ~ 0
 SW15A
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX66
+L GanJing_components:Cherry_MX_No_LED MX66
 U 1 1 5F6A46E6
 P 10550 4550
 F 0 "MX66" H 10583 4773 60  0000 C CNN
@@ -1995,7 +1993,7 @@ F 3 "" H 9925 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX58
+L GanJing_components:Cherry_MX_No_LED MX58
 U 1 1 5F69B130
 P 10550 3800
 F 0 "MX58" H 10583 4023 60  0000 C CNN
@@ -2006,7 +2004,7 @@ F 3 "" H 9925 3775 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX44
+L GanJing_components:Cherry_MX_No_LED MX44
 U 1 1 5F691B26
 P 10550 3050
 F 0 "MX44" H 10583 3273 60  0000 C CNN
@@ -2017,7 +2015,7 @@ F 3 "" H 9925 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX30
+L GanJing_components:Cherry_MX_No_LED MX30
 U 1 1 5F688EC8
 P 10550 2300
 F 0 "MX30" H 10583 2523 60  0000 C CNN
@@ -2028,7 +2026,7 @@ F 3 "" H 9925 2275 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX70
+L GanJing_components:Cherry_MX_No_LED MX70
 U 1 1 5F7670D2
 P 10150 3050
 F 0 "MX70" H 10183 3273 60  0000 C CNN
@@ -2039,12 +2037,12 @@ F 3 "" H 9525 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ganjing-65-rescue:MX-NoLED-MX_Alps_Hybrid-Ganjing-keyboard-rescue MX74
+L GanJing_components:Cherry_MX_No_LED MX74
 U 1 1 5F782119
 P 6950 5300
 F 0 "MX74" H 6983 5523 60  0000 C CNN
 F 1 "7.00u Space" H 6983 5449 20  0000 C CNN
-F 2 "MX_Only:MXOnly-7U-NoLED" H 6325 5275 60  0001 C CNN
+F 2 "MX_Only:MXOnly-7U-ReversedStabilizers-NoLED" H 6325 5275 60  0001 C CNN
 F 3 "" H 6325 5275 60  0001 C CNN
 	1    6950 5300
 	1    0    0    -1  
@@ -2056,12 +2054,12 @@ row4
 Text GLabel 4000 4250 0    50   Input ~ 0
 row3
 $Comp
-L Device:D D1
+L GanJing_components:1N4148TR_Diode D1
 U 1 1 5F7A2FFE
 P 4500 1850
 F 0 "D1" V 4500 1771 50  0000 R CNN
 F 1 "D" V 4455 1771 50  0001 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 4500 1850 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 4500 1850 50  0001 C CNN
 F 3 "https://www.onsemi.cn/PowerSolutions/document/1N914-D.PDF" H 4500 1850 50  0001 C CNN
 F 4 "1N4148FSTR-ND" V 4500 1850 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/on-semiconductor/1N4148TR/458811" V 4500 1850 50  0001 C CNN "Digikey Link"
@@ -2526,7 +2524,7 @@ col13
 Text GLabel 10800 1250 1    50   Input ~ 0
 col14
 $Comp
-L Ganjing-65-rescue:ATmega32A-PU-MCU_Microchip_ATmega-Ganjing-keyboard-rescue U1
+L GanJing_components:ATmega32A-PU U1
 U 1 1 5F4BE11D
 P 2050 3150
 F 0 "U1" H 2050 3150 50  0000 C CNN
@@ -2612,12 +2610,12 @@ SCL
 Text Notes 700  2950 0    157  ~ 31
 OLED
 $Comp
-L Connector_Generic:Conn_01x04 J1
+L GanJing_components:SSD1306_0.91"_OLED J1
 U 1 1 5F5D0E8C
 P 850 3650
 F 0 "J1" H 768 3967 50  0000 C CNN
 F 1 "Conn_01x04" H 768 3876 50  0000 C CNN
-F 2 "Keyboard:ssd1306 128x32 oled" H 850 3650 50  0001 C CNN
+F 2 "Keyboard:ssd1306_128x32_oled" H 850 3650 50  0001 C CNN
 F 3 "~" H 850 3650 50  0001 C CNN
 	1    850  3650
 	-1   0    0    -1  
@@ -2667,7 +2665,7 @@ $EndComp
 Wire Wire Line
 	800  4950 800  4850
 $Comp
-L Ganjing-65-rescue:AVR-ISP-6-USB_C_GCT_USB4085-Ganjing-keyboard-rescue J2
+L GanJing_components:2x3_pin_header J2
 U 1 1 5F5BCB1B
 P 900 5300
 F 0 "J2" H 900 5700 50  0000 R CNN
@@ -2821,7 +2819,7 @@ U 1 1 5F51258F
 P 4000 6400
 F 0 "R5" V 3804 6400 50  0000 C CNN
 F 1 "75" V 3900 6400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4000 6400 50  0001 C CNN
+F 2 "Keyboard:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4000 6400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf" H 4000 6400 50  0001 C CNN
 F 4 "603-CFR-12JR-52-75R" V 4000 6400 50  0001 C CNN "Mouser #"
 F 5 "https://www.mouser.com/ProductDetail/Yageo/CFR-12JR-52-75R?qs=%2Fha2pyFaduicYmUoDqcqU7D9uIURgJBQFwzWMqews9k%252BJn0PRVolPtydK1XjXZwn" V 4000 6400 50  0001 C CNN "Mouser link"
@@ -2848,7 +2846,7 @@ U 1 1 5F4FECAA
 P 3700 6950
 F 0 "D69" V 3650 6750 50  0000 L CNN
 F 1 "3.6V" V 3750 6750 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" V 3700 6950 50  0001 C CNN
+F 2 "Keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" V 3700 6950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/tzxserie-1767901.pdf" V 3700 6950 50  0001 C CNN
 F 4 "78-TZX3V6A" V 3700 6950 50  0001 C CNN "Mouser #"
 F 5 "https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TZX3V6A-TR?qs=oNDV51lhjENtvfdCBFOJTw%3D%3D" V 3700 6950 50  0001 C CNN "Mouser link"
@@ -2892,7 +2890,7 @@ U 1 1 5F4EB02A
 P 3500 6200
 F 0 "R4" H 3350 6150 50  0000 C CNN
 F 1 "1.5k" H 3350 6250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3500 6200 50  0001 C CNN
+F 2 "Keyboard:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3500 6200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 3500 6200 50  0001 C CNN
 F 4 "603-MFR-12FTF52-1K5" H 3500 6200 50  0001 C CNN "Mouser #"
 F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-1K5?qs=oAGoVhmvjhypP%2FVrWmgF1g%3D%3D" H 3500 6200 50  0001 C CNN "Mouser link"
@@ -3005,7 +3003,7 @@ U 1 1 5F4CCFEB
 P 3100 6300
 F 0 "R3" V 2904 6300 50  0000 C CNN
 F 1 "5.1k" V 3000 6300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3100 6300 50  0001 C CNN
+F 2 "Keyboard:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3100 6300 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 3100 6300 50  0001 C CNN
 F 4 "603-MFR-12FTF52-5K1" V 3100 6300 50  0001 C CNN "Mouser #"
 F 5 "https://www.mouser.com/ProductDetail/Yageo/MFR-12FTF52-5K1?qs=oAGoVhmvjhy1wGcoKYGIuA%3D%3D" V 3100 6300 50  0001 C CNN "Mouser link"
@@ -3030,12 +3028,12 @@ Wire Wire Line
 Wire Wire Line
 	2900 5800 3000 5800
 $Comp
-L Ganjing-65-rescue:USB_C_GCT_USB4085-USB_C_GCT_USB4085-Ganjing-keyboard-rescue USB1
+L GanJing_components:GCT_USB-c_port USB1
 U 1 1 5F4C7F99
 P 2650 6600
 F 0 "USB1" H 2658 7665 50  0000 C CNN
 F 1 "USB_C_GCT_USB4085" H 2658 7574 50  0000 C CNN
-F 2 "Type-C:USB_C_GCT_USB4085" H 2600 7150 50  0001 C CNN
+F 2 "Keyboard:USB_C_GCT_USB4085" H 2600 7150 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/Ionex_USB_Conn_Br.pdf" H 2600 7150 50  0001 C CNN
 F 4 "2073-USB4085-GF-ATR-ND" H 2650 6600 50  0001 C CNN "Digikey #"
 F 5 "https://www.digikey.ca/en/products/detail/gct/USB4085-GF-A/9859662?s=N4IgTCBcDaIKoGUBCAWADADgKwFoDiAYjgIIgC6AvkA" H 2650 6600 50  0001 C CNN "Digikey link"
@@ -3054,54 +3052,12 @@ Wire Wire Line
 	6350 6250 6150 6250
 Text GLabel 6850 6250 2    50   Input ~ 0
 Boot
-$Comp
-L Ganjing-65-rescue:1825910-7-dk_Tactile-Switches-Ganjing-keyboard-rescue S2
-U 1 1 5F4E706C
-P 6550 6350
-F 0 "S2" H 6550 6697 60  0000 C CNN
-F 1 "Boot" H 6550 6591 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 6750 6550 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6750 6650 60  0001 L CNN
-F 4 "450-1804-ND" H 6750 6750 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-7" H 6750 6850 60  0001 L CNN "MPN"
-F 6 "Switches" H 6750 6950 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 6750 7050 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6750 7150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" H 6750 7250 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 6750 7350 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 6750 7450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6750 7550 60  0001 L CNN "Status"
-	1    6550 6350
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4950 6800
-NoConn ~ 5350 6800
 Wire Wire Line
 	4750 6600 4950 6600
 Wire Wire Line
 	5350 6600 5400 6600
 Wire Wire Line
 	4750 6600 4750 6700
-$Comp
-L Ganjing-65-rescue:1825910-7-dk_Tactile-Switches-Ganjing-keyboard-rescue S1
-U 1 1 5F4DDD6B
-P 5150 6700
-F 0 "S1" H 5150 7047 60  0000 C CNN
-F 1 "Reset" H 5150 6941 60  0000 C CNN
-F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 5350 6900 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5350 7000 60  0001 L CNN
-F 4 "450-1804-ND" H 5350 7100 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-7" H 5350 7200 60  0001 L CNN "MPN"
-F 6 "Switches" H 5350 7300 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 5350 7400 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 5350 7500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-7/450-1804-ND/1731414" H 5350 7600 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 5350 7700 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 5350 7800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5350 7900 60  0001 L CNN "Status"
-	1    5150 6700
-	1    0    0    -1  
-$EndComp
 Text GLabel 5450 6600 2    50   Input ~ 0
 Reset
 $Comp
@@ -3237,4 +3193,38 @@ $EndComp
 NoConn ~ 2650 4150
 Text Notes 6250 5800 0    157  ~ 31
 Boot
+$Comp
+L GanJing_components:6mm_tactile_switch S1
+U 1 1 5FE1BDCE
+P 5150 6700
+F 0 "S1" H 5150 7025 50  0000 C CNN
+F 1 "Reset" H 5150 6934 50  0000 C CNN
+F 2 "Keyboard:SW_PUSH_6mm" H 5150 6700 50  0001 C CNN
+F 3 "" H 5150 6700 50  0001 C CNN
+	1    5150 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 6600 4950 6800
+Connection ~ 4950 6600
+Wire Wire Line
+	5350 6800 5350 6600
+Connection ~ 5350 6600
+$Comp
+L GanJing_components:6mm_tactile_switch S2
+U 1 1 5FE67A6A
+P 6550 6350
+F 0 "S2" H 6550 6675 50  0000 C CNN
+F 1 "Boot" H 6550 6584 50  0000 C CNN
+F 2 "Keyboard:SW_PUSH_6mm" H 6550 6350 50  0001 C CNN
+F 3 "" H 6550 6350 50  0001 C CNN
+	1    6550 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6250 6350 6450
+Connection ~ 6350 6250
+Wire Wire Line
+	6750 6450 6750 6250
+Connection ~ 6750 6250
 $EndSCHEMATC
